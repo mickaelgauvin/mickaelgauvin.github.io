@@ -37,5 +37,6 @@
   },
   "_source": "git://github.com/twbs/bootstrap-sass.git",
   "_target": "~3.1.1",
-  "_originalSource": "twbs/bootstrap-sass"
+  "_originalSource": "twbs/bootstrap-sass",
+  "_direct": true
 }

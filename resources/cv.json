@@ -1,0 +1,1875 @@
+{
+  "informationsGenerales": {
+    "nom": "GAUVIN",
+    "prenom": "Mickaël",
+    "statut": "Freelance en Entreprise Individuelle",
+    "naissance": "1984-10-23",
+    "adresse": "20 bis rue du Moulin",
+    "codePostal": "35700",
+    "ville": "Joué Lès Tours",
+    "telephones": {
+      "mobile": "07 60 05 04 06",
+      "fixe": "02 34 37 79 27"
+    },
+    "email": "mickael.gauvin@gmail.com",
+    "siteWeb": "http://mickaelgauvin.github.io",
+    "siret": "513 133 801 00037",
+    "tva": "FR 66 513 133 801",
+    "ape": "6202A",
+    "autres" : ["Permis B"]
+  },
+  "formations": [
+    {
+      "id": 5,
+      "debut": "2013-11-01",
+      "fin": "2013-12-31",
+      "cursus": {
+        "fr": "Coursera: Principes de la Programmation Réactive",
+        "en": "Coursera : Principles of Reactive Programming"
+      },
+      "description": {
+        "fr":  "Ce cours avancé enseigne les principes de la programmation réactive en utilisant Scala: comment écrire un logiciel composable, régit par des événements, s'adaptant aux montées de charge, sachant faire face aux défaillances. Les concepts étudiés incluent les monades, les futures, les observables et les acteurs.",
+        "en":  "This advanced course teaches principles of reactive programming using Scala: how to write composable software that is event-driven, scalable under load, resilient and responsive in the presence of failures. Concepts covered include monads, futures, observables and actors."
+      },
+      "diplome": {
+        "fr":  "<span class='fa fa-certificate'/> Accompli (avec mention)",
+        "en":  "<span class='fa fa-certificate'/> Accomplishment (with distinction)"
+      }
+    }, {
+      "id": 4,
+      "debut": "2012-09-01",
+      "fin": "2012-10-31",
+      "cursus": {
+        "fr": "Coursera: Principes de la Programmation Fonctionnelle en Scala",
+        "en": "Coursera : Functional Programming Principles in Scala"
+      },
+      "description": {
+        "fr": "Ce cours de programmation avancée couvre les principes de la programmation fonctionnelle en Scala, y compris l'utilisation de fonctions comme valeurs, la récursivité, l'immutabilité, le concept de pattern matching, les fonctions d'ordre supérieur, les collections, et l'évaluation au plus tard.",
+        "en": "This advanced undergraduate programming course covers the principles of functional programming using Scala, including the use of functions as values, recursion, immutability, pattern matching, higher-order functions and collections, and lazy evaluation."
+      },
+      "diplome": {
+        "fr":  "<span class='fa fa-certificate'/> Accompli (avec mention)",
+        "en":  "<span class='fa fa-certificate'/> Accomplishment (with distinction)"
+      }
+    }, {
+      "id": 3,
+      "debut": "2004-09-01",
+      "fin": "2007-09-01",
+      "cursus": {
+        "fr": "École d’ingénieur de l’IFSIC (Rennes)",
+        "en": "École d’ingénieur de l’IFSIC (Rennes)"
+      },
+      "description": {
+        "fr": "Option LSI (Langages et Systèmes Informatiques) : réseaux,  systèmes d'exploitation, parallélisme, interfaces homme-machine, bases de données.",
+        "en": "LSI Option (Langages et Systèmes Informatiques) : network,  operating system, parallelism, user interface, database."
+      },
+      "diplome": {
+        "fr": "<span class='fa fa-certificate'/> DIIC",
+        "en": "<span class='fa fa-certificate'/> DIIC"
+      }
+    }, {
+      "id": 2,
+      "debut": "2003-09-01",
+      "fin": "2004-09-01",
+      "cursus": {
+        "fr": "DEUG 2 STPI (Rennes)",
+        "en": "DEUG 2 STPI (Rennes)"
+      },
+      "description": {
+        "fr": "Sciences et Technologie Pour l'Ingénieur.",
+        "en": "Sciences et Technologie Pour l'Ingénieur."
+      },
+      "diplome": {
+        "fr": "<span class='fa fa-certificate'/> DEUG (major de promo)",
+        "en": "<span class='fa fa-certificate'/> DEUG (graduated first in my class)"
+      }
+    }, {
+      "id": 1,
+      "debut": "2002-09-01",
+      "fin": "2003-09-01",
+      "cursus": {
+        "fr": "Math Sup PTSI (Rennes)",
+        "en": "Math Sup PTSI (Rennes)"
+      },
+      "description": {
+        "fr": "Physique, Technologie et Sciences de l'Ingénieur.",
+        "en": "Physique, Technologie et Sciences de l'Ingénieur."
+      },
+      "diplome": {
+        "fr": "",
+        "en": ""
+      }
+    }
+  ],
+  "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.",
+  "domainesExpertises": "Je considère avoir une bonne connaissance de l'écosystème <strong>J2EE</strong> et plus récemment, suite à l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis perfectionné au niveau des technologies <strong>JavaScript</strong>. Je suis en fait un adepte de <strong>CoffeeScript</strong> et m'adonne à la conception de projets basés sur <strong>AngularJS</strong> qui est pour moi ce qui se rapproche le plus de Flex. J'ai suivi également depuis 2011 des formations en ligne sur <strong>Scala</strong>, un langage que j'affectionne beaucoup, notamment pour l'apport du paradigme <strong>fonctionnel</strong> mais aussi pour les outils qui en découlent, tels que le framework <strong>Play</strong> ou la bibliothèque <strong>Akka</strong>.",
+  "experiencesProfessionnelles": [
+    {
+      "debut": "2009-04-01",
+      "fin": "2014-01-31",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "statut": "",
+      "projets": [
+        {
+          "id": 19,
+          "nom": "Administration de Référentiels",
+          "client": "iMDEO (Tours)",
+          "description": "Prototypage d'un outil de génération de code pour la création d'applications de gestion de référentiels.",
+          "termesTechniques": [
+
+          ],
+          "realisations": [
+            {
+              "titre": "Modèle de génération de code.",
+              "description": "Réalisation d'une ébauche, permettant de construire facilement un modèle de génération de code en utilisant EMF. L'étape suivante étant de générer le code satisfaisant ce modéle. Le modèle décrit notamment le champs des différents objets admistrables, leurs relations et la cardinalités de celles-ci. Le modèle décrit aussi les contraintes appliquées sur chacun des champs (Non nullité, Expression régulière …).",
+              "termesTechniques": [
+                1,
+                35,
+                134,
+                156
+              ]
+            }
+          ]
+        }, {
+          "id": 18,
+          "nom": "Compagnonnage",
+          "client": "iMDEO (Tours)",
+          "description": "Transfert de compétences et support au développement.",
+          "termesTechniques": [
+              1
+          ],
+          "realisations": [
+            {
+              "titre": "Tests Unitaires",
+              "description": "Familiariser les développeurs avec l'écriture des Tests Unitaires et au développement par les Tests (TDD). Utilisation de JUnit et Mockito.",
+              "termesTechniques": [
+                2,
+                4
+              ]
+            }, {
+              "titre": "Support",
+              "description": "Support concernant l'utilisation du nouveau Socle Technique. Écriture d'une documentation complète.",
+              "termesTechniques": [
+              ]
+            }
+          ]
+        }, {
+          "id": 17,
+          "nom": "Rapport d'Activité",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "descriptionCourte": "Application destinée à générer un flux XML personnalisé, contenant différents choix de rapports liés à l'activité du Groupe Hervé.",
+          "description": "Application destinée à générer un flux XML personnalisé, contenant différents choix de rapports liés à l'activité du Groupe Hervé. StreamServe est chargé de transformer le flux en document PDF.",
+          "termesTechniques": [
+            1,
+            7,
+            9,
+            36,
+            43
+          ],
+          "realisations": [
+            {
+              "titre": "Meta-modèle SQL",
+              "description": "Conception d'un meta-modèle décrivant la structure des Requêtes SQL servant à générer le rapport. L'idée est d'avoir une solution générique ne nécéssitant pas de nouvelles mises en production à chaque ajout d'un nouveau rapport. L'administrateur insére simplement en base la structure de requête pour chaque nouveau rapport. Utilisation de JavaScript et de Velocity pour gérer le dynamisme de génération des requêtes SQL.",
+              "termesTechniques": [
+                4,
+                69,
+                115,
+                116,
+                118,
+                121,
+                122
+              ]
+            }, {
+              "titre": "Modèle de Rapport JAXB",
+              "description": "Conception d'un modèle JAXB générique décrivant la struture du flux XML et par la même occasion la structure de la page HTML de prévisualisation du rapport.",
+              "termesTechniques": [
+                21,
+                57,
+                119
+              ]
+            }
+          ]
+        }, {
+          "id": 16,
+          "nom": "Gestion des Réceptions Mobile",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "descriptionCourte": "Application mobile utile aux salariés n'ayant pas d'accès direct à une station de travail. Depuis leur smartphone, ils peuvent enregistrer les réceptions de commandes effectuées au préalable depuis l'application gestion des achats.",
+            "description": "Suite logique de l'application GDA (Gestion Des Achats). Les réceptions de commande s'effectuaient auparavant sur le client lourd GDA (Eclipse RCP). Ceci étant peu pratique pour les salariés, la nouvelle application mobile doit leur faire gagner le temps de la double saisie.",
+          "termesTechniques": [
+            1,
+            4,
+            36,
+            37,
+            61,
+            64,
+            76,
+            78,
+            82
+          ],
+          "realisations": [
+            {
+              "titre": "Support",
+              "description": "Support Technique de la personne en charge du développement.",
+              "termesTechniques": [
+              ]
+            }, {
+              "titre": "Authentification",
+              "description": "Implémentation de l'authentification dans l'application AngularJS.",
+              "termesTechniques": [
+                123
+              ]
+            }, {
+              "titre": "Montage du projet",
+              "description": "Aide au démarrage du projet avec notamment l'outil de Scafolding Yeoman. Configuration de la construction du projet avec Maven et configuration du filtre CORS côté serveur.",
+              "termesTechniques": [
+                77,
+                84,
+                86,
+                87,
+                120
+              ]
+            }
+          ]
+        }, {
+          "id": 15,
+          "nom": "Facturation",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "description": "Refonte de l'ancienne application de facturation. La nouvelle application se basera sur le nouveau socle technique.",
+          "termesTechniques": [
+            1,
+            51,
+            52,
+            61,
+            64
+          ],
+          "realisations": [
+            {
+              "titre": "Module de communication structuré par une API REST",
+              "description": "Le module permet le dialogue entre la nouvelle application Facturation et les Applications Satellites telles que la Gestion d'Ouvrage. Le module est constitué de 2 parties, la partie description de l'API utilisant HTTP et un module Java faisant office de façade abstayant la mécanique REST et permettant par exemple de se passer d'HTTP pour une utilisation locale du module.",
+              "termesTechniques": [
+                20,
+                21,
+                28,
+                36,
+                39,
+                82,
+                119,
+                120,
+                149
+              ]
+            }, {
+              "titre": "Gestion des références",
+              "description": "Développement d'un module générique permettant aux applications satellites d'ajouter des références sur une facture à n'importe quel moment dans le workflow menant à l'édition d'une facture.",
+              "termesTechniques": [
+                13,
+                43,
+                73,
+                78,
+                107,
+                115
+              ]
+            }
+          ]
+        }, {
+          "id": 14,
+          "nom": "Plugins Eclipse",
+          "client": "iMDEO (Tours)",
+          "description": "Création de Plugins Eclipse pour augmenter la productivité de l'équipe de développement.",
+          "termesTechniques": [
+            1,
+            13,
+            64,
+            36,
+            37
+          ],
+          "realisations": [
+            {
+              "titre": "Génération de Classes Java",
+              "description": "Création d'un Plugin Eclipse de génération de classes Java (Entités JPA, DAO, Services).",
+              "termesTechniques": [
+                42
+
+              ]
+            }, {
+              "titre": "Génération de Projets",
+              "description": "Création d'un plugin Eclipse de génération de projet compatible Maven:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>entités du domaine,</li><li><i class=\"fa-li fa fa-angle-right\"></i>contrôleurs Web,</li><li><i class=\"fa-li fa fa-angle-right\"></i>application Web.</li></ul>Le plugin utilise des modèles préremplis par des valeurs initilales pouvant être modifiées par l'utilisateur afin de personnaliser la génération de code.",
+              "termesTechniques": [
+                42,
+                61,
+                82,
+                137
+              ]
+            }
+          ]
+        }, {
+          "id": 13,
+          "nom": "Comptes Extranet",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "description": "Application destinée à la gestion des Comptes Extranet du Groupe Hervé.",
+          "termesTechniques": [
+            1,
+            36,
+            37,
+            38,
+            51,
+            61,
+            64,
+            70,
+            73,
+            78,
+            123,
+            154,
+            155
+          ],
+          "realisations": [
+            {
+              "titre": "Passerelle vers l'application Extranet",
+              "description": "Création d'un module de communication pour l'application Extranet. L'application Extranet pourra alors interroger l'application des Comptes Extranet pour connaître le profil de chacun des individus connectés.",
+              "termesTechniques": [
+                117
+              ]
+            }, {
+              "titre": "Découplage",
+              "description": "Découplage de la partie «contrôleur» et «service» grâce à Akka et l'API DefferedResult de Spring.",
+              "termesTechniques": [
+                55,
+                124,
+                126
+              ]
+            }, {
+              "titre": "Interopérabilité avec l'annuaire",
+              "description": "L'application «Annuaire» doit pouvoir afficher si pour un contact donné un compte extranet est associé et si oui fournir un lien vers la gestion de son compte. Un jeton d'authentification sera envoyé à l'application «Comptes Extranet» pour que l'administrateur n'ait pas à ressaisir ses identifiants.",
+              "termesTechniques": [
+                24,
+                123,
+                135
+              ]
+            }, {
+              "titre": "Web Application",
+              "description": "Développement de l'application en mode «Test Driven Development» avec un autre développeur. Fonctionnalités principales:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>création / activation de compte extranet,</li><li><i class=\"fa-li fa fa-angle-right\"></i>regénération de mot de passe,</li><li><i class=\"fa-li fa fa-angle-right\"></i>authentification,</li><li><i class=\"fa-li fa fa-angle-right\"></i>association d'un ou plusieurs profiles,</li><li><i class=\"fa-li fa fa-angle-right\"></i>ajout et modification de fonctions à un profil en particulier,</li><li><i class=\"fa-li fa fa-angle-right\"></i>lister les profils associés à un compte.</li></ul>",
+              "termesTechniques": [
+                4,
+                23,
+                52,
+                74,
+                91,
+                116,
+                130
+              ]
+            }
+          ]
+        }, {
+          "id": 12,
+          "nom": "WSGroupe",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "description": "Il s'agit d'un serveur exposant pour certains clients du Groupe Hervé des services REST.",
+          "termesTechniques": [
+            1,
+            36,
+            39
+          ],
+          "realisations": [
+            {
+              "titre": "Satisfaction",
+              "description": "Développement des services de satisfaction client. De la même manière que pour les demandes d'interventions il s'agit d'ouvrir au monde extérieur les services déjà existant dans l'intranet du Groupe Hervé.",
+              "termesTechniques": [
+                125
+              ]
+            }, {
+              "titre": "Demande d'Intervention",
+              "description": "Développement des services de demandes d'interventions. Les contrôleurs REST ne font officent que de façade puisque le traitement métier est délégué aux services «legacy» déjà existants dans le SI. L'appel à ces services se fait simplement grâce à la couche d'interopérabilité développée pour la nouvelle infrastructure technique.",
+              "termesTechniques": [
+                125
+              ]
+            }, {
+              "titre": "Serveur REST",
+              "description": "Mise en place du serveur REST, capable de fournir selon le choix du client, soit une représentation des données au format JSON, soit au format XML. Un module de gestion des erreurs a été implémenté pour une gestion plus aisée côté client.",
+              "termesTechniques": [
+                21,
+                119,
+                120,
+                153
+              ]
+            }
+          ]
+        }, {
+          "id": 11,
+          "nom": "Conception Architecture Technique",
+          "client": "iMDEO (Tours)",
+          "descriptionCourte": "Production d'une nouvelle infratructure technique pour augmenter la productivité et la testabilité des projets. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le système d'information (plus de 800 mappings HBM existants).",
+          "description": "L'objectif du projet est de produire une nouvelle infratructure technique pour augmenter la productivité et la testabilité des projets à venir. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le Système d'Information (plus de 800 mappings HBM existants).",
+          "termesTechniques": [
+            1,
+            9,
+            13,
+            61,
+            64,
+            73,
+            82
+          ],
+          "realisations": [
+            {
+              "titre": "Module d'adaptation d'Hibernate 3.0 vers Hibernate 4.1",
+              "description": "Création d'un module AspectJ permettant l'interopérabilité des services écrits avec Hibernate 3.0 avec ceux écrits avec Hibernate 4.1. En effet certaines classes n'existent plus dans Hibernate 4.1, des constantes ont été déplacées et des comportements modifiés. Le module AspectJ permet au lancement des applications d'instrumenter les classes dites «Legacy» pour qu'elles puissent s'adapter à leur nouvel environnement.",
+              "termesTechniques": [
+                9,
+                36,
+                37,
+                38,
+                43,
+                51,
+                126
+              ]
+            }, {
+              "titre": "Augmentation de la vitesse d'exécution des Tests Unitaires",
+              "description": "Création d'un module AspectJ permettant l'augmentation de la vitesse de lancement des Tests Unitaires. Dépendant de plus de 800 mappings Hibernate «Legacy», les Tests Unitaires demandant l'exécution d'une base de données en mémoire mettent plus de 30 secondes à charger la session Hibernate. Le module prend en charge une liste de mappings «Legacy» qui sont directement impliqués dans l'exécution des tests puis le module instrumente les classes Hibernate pour quelles puissent ignorer toutes les références aux entités qui ne sont pas présentes dans la liste des mappings fournie en entrée. Le module est aussi capable de ne plus prendre en compte les contraintes de non-nullité pour faciliter l'insertion de données lors des phases de test.",
+              "termesTechniques": [
+                9,
+                36,
+                37,
+                38,
+                43,
+                51,
+                126
+              ]
+            }, {
+              "titre": "Architecture de l'infrastructure Java",
+              "description": "Proposition d'un nouvean socle technique basé sur le framework Spring 3.2.4. Utilisant en grande partie la configuration non pas en mode «XML» mais en mode «Java Annoté». Cette approche permet une meilleur réutilisabilité et extensibilité des configurations par défaut. Le socle utilise aussi la bibliothèque Config de TypeSafe permettant une configuration aisée des modules composant le socle et des modules constituant les applications métiers. Le socle propose aussi une façon simple de gérer les traductions de libellés basée sur un fichier de configuration de type clé-valeur en mode développement. Ce fichier permettra entre autre de générer le script SQL d'insertion en base des traductions pour les modes Recette et Production.",
+              "termesTechniques": [
+                11,
+                36,
+                37,
+                38,
+                43,
+                126
+              ]
+            }, {
+              "titre": "Architecture de Construction de Projet",
+              "description": "L'ancien socle technique construisait les projets avec Ant. Le nouveau utilise Maven. Une hiérarchie de fichier pom.xml a été définie pour répondre de plus simplement et le plus souvent possible aux problématiques de construction de projet. On trouvera notamment: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>les POMs racines fournissant une configuration de build par technologie (Java, Flex, Scala …). Dans ces configurations il est défini:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>les versions des dépendances de compilation susceptibles d'être utilisées,</li><li><i class=\"fa-li fa fa-angle-right\"></i>les versions des plugins Maven utilisés dans le cycle de vie de construction de projet,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la définition de constantes réutilisables dans les sous POMs.</li></ul></li><li><i class=\"fa-li fa fa-angle-right\"></i>les POMs de second niveau chargés de configurer les options de compilation par défaut,</li><li><i class=\"fa-li fa fa-angle-right\"></i>les POMs architecturaux avec par exemple les POMs parents: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>des projets comportant des services,</li><li><i class=\"fa-li fa fa-angle-right\"></i>des projets comportant des contrôleur Web,</li><li><i class=\"fa-li fa fa-angle-right\"></i>des Web Applications.</li></ul><li><i class=\"fa-li fa fa-angle-right\"></i>les POMs des projets d'adaptation, rendant intéropérable les dépendances dites «historiques» avec la nouvelle infrastructure technique.</li></ul>",
+              "termesTechniques": [
+                82
+              ]
+            }
+          ]
+        }, {
+          "id": 10,
+          "nom": "Planning",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "descriptionCourte": "Développement d'outils de visualisation temporaux sur l'organisation du personnel et des projets du Groupe Hervé. Le choix du Framework Flex s'est vite imposé. Fonctionnalités clés : planning de Gantt, planning des chantiers et planning des resources en personnels.",
+          "description": "L'objectif du projet est de fournir des outils de visualisation temporaux sur l'organisation du personnel et des projets du Groupe Hervé. Ces outils devront pouvoir s'exécuter au sein même d'un navigateur WEB. Ils font fortement appel à des primitives graphiques, le choix du Framework Flex s'est donc vite imposé.",
+          "termesTechniques": [
+            16,
+            61,
+            64,
+            73,
+            78,
+            82,
+            107,
+            149
+          ],
+          "realisations": [
+            {
+              "titre": "Planning des Chantiers",
+              "description": "L'outil «Planning des Chantiers» va permettre de générer le planning de Gantt non pas au niveau tâche mais au niveau projet grâce aux dates de début et de fin des chantiers fournies par le projet «Gestion d'Ouvrage». L'utilisateur, via une zone de filtres, pourra paramétrer le contenu du diagramme et au besoin demander une impression PDF.",
+              "termesTechniques": [
+                1,
+                4,
+                6,
+                20,
+                21,
+                27,
+                28,
+                34,
+                36,
+                39,
+                41,
+                43,
+                56,
+                124,
+                128,
+                129,
+                127
+              ]
+            }, {
+              "titre": "Planning des Ressources en Personnels",
+              "description": "L'affectation de personnel sur les tâches du planning de Gantt permet de pouvoir restituer graphiquement et par projet le planning de chaque personne impliquée. Une personne pouvant travailler sur de multiples projets, l'outil doit être en mesure de pouvoir faire des aggrégations graphiques par projet et d'en montrer le détail si l'utilisateur le souhaite. Une zone de filtres permettra de choisir par exemple un sous-secteur ou une personne spécifique. Enfin l'utilisateur aura la possibilité d'éditer au format PDF le planning affiché à l'écran.",
+              "termesTechniques": [
+                1,
+                4,
+                6,
+                20,
+                21,
+                27,
+                28,
+                34,
+                36,
+                39,
+                41,
+                43,
+                56,
+                124,
+                128,
+                129,
+                127
+              ]
+            }, {
+              "titre": "Réalisation d'un Planning de Gantt",
+              "description": "En relation avec les données provenant du projet Gestion d'Ouvrage, l'application est capable pour un projet, d'afficher un diagramme de Gantt représentant le positionnement des différentes tâches le constituant, dans le temps. L'utilisateur pourra:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>effectuer des déplacements de tâches,</li><li><i class=\"fa-li fa fa-angle-right\"></i>créer des groupes de tâches,</li><li><i class=\"fa-li fa fa-angle-right\"></i>modifier les informations relatives aux tâches avec notamment la possibilité d'affecter du personnel sur celles-ci,</li><li><i class=\"fa-li fa fa-angle-right\"></i>des relations de précédence entre tâches pourront être spécifiées.</li></ul> L'utilisateur aura aussi accès pour un sous-secteur donné, à un référentiel de modèles de groupes constitués de tâches communément utilisés.<br/>Autre caractéristique importante: l'utisateur pourra paramétrer différents taux de main d'œuvre pour avoir une estimation des coûts inhérents à chacune des tâches.<br/>Il pourra aussi saisir l'avancement de chacune des tâches et avoir un avancement global du projet.<br/>Enfin il pourra éditer tout ou partie du diagramme au moyen de filtres au format PDF ou Microsoft Project.",
+              "termesTechniques": [
+                1,
+                4,
+                6,
+                20,
+                21,
+                27,
+                28,
+                34,
+                36,
+                39,
+                41,
+                43,
+                56,
+                124,
+                128,
+                129,
+                127,
+                152
+              ]
+            }, {
+              "titre": "Timeline",
+              "description": "Les modules à concevoir ont tous un point commun: «le temps». Le module «Timeline» consiste en une ligne des temps sur laquelle plusieurs opérations peuvent s'appliquer telles que:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>le zoom et le dé-zoom temporel,</li><li><i class=\"fa-li fa fa-angle-right\"></i>le déplassement temporel en glissant la «Timeline» avec la souris,</li><li><i class=\"fa-li fa fa-angle-right\"></i>le choix d'une sous-période,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la diffusion des bornes de début et de fin ainsi que la position des graduations aux modules externes.</li></ul>Une des difficultés majeure fut l'implémentation du formatage des dates en fonction de l'espace disponible entre les graduations temporelles.",
+              "termesTechniques": [
+                6,
+                16,
+                41,
+                151
+              ]
+            }, {
+              "titre": "Hypermedia Over AMF Over HTTP",
+              "description": "Il s'agit d'un module faisant office de reverse proxy côté serveur, développé pour s'abstenir d'utiliser les trop faibles capacités des navigateurs WEB concernant l'utilisation de certains verbes HTTP. Le module reçoit de la part du client des Objets ActionScript sérialisés grâce au protocole AMF. Ces objets permettent d'émuler le protocole HTTP du côté du client. Le reverse proxy se charge de transcrire ces objets en appels HTTP réels vers un serveur de WebServices REST. Cette technique apporte un élément non négligeable: la compression apportée par le protocole AMF dans le sens Client -> Serveur.",
+              "termesTechniques": [
+                1,
+                6,
+                36,
+                39,
+                41,
+                127,
+                148,
+                150
+              ]
+            }
+          ]
+        }, {
+          "id": 9,
+          "nom": "Conception Framework Hypermedia",
+          "client": "iMDEO (Tours)",
+          "description": "Dans l'optique de futurs projets à réaliser avec la technologie Flex, ce Framework ayant pour base Spring et Jersey sera capable de gérer de façon générique des ressources et les actions communément associées telles que: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la création,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la lecture, </li><li><i class=\"fa-li fa fa-angle-right\"></i>la mise à jour,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la suppression,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la recherche générique.</li></ul>",
+          "termesTechniques": [
+            1,
+            13,
+            20,
+            21,
+            36,
+            39,
+            43,
+            61,
+            64,
+            73,
+            78,
+            82,
+            91,
+            112,
+            119,
+            130,
+            146
+          ],
+          "realisations": [
+            {
+              "titre": "Recherche Générique",
+              "description": "Conception d'un système de Recherche Générique à base d'Annotations Java. L'idée est de pouvoir facilement générer des résultats de recherche pour n'importe quelle resource, avec un format de représentation commun, ceci pour en faciliter l'affichage côté client.",
+              "termesTechniques": [
+                147,
+                115
+              ]
+            }, {
+              "titre": "API Hypermedia",
+              "description": "Réflexion sur l'implémentation d'API REST embarquant potentiellement des liens dans les ressources retournées par le serveur. L'idée est de fournir des classes de base abstrayant le concept de ressource et les relations (liens + semantique de relation) vers les autres ressources qui peuvent en découler. Une resource est alors considérée comme un Hypermedia.",
+              "termesTechniques": [
+                27,
+                28,
+                29,
+                127,
+                148,
+                150
+              ]
+            }
+          ]
+        }, {
+          "id": 8,
+          "nom": "Objectifs Fonctionnels",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "description": "L'application «Objectifs Fonctionnels» permet de définir chaque année les objectifs fonctionnels que veulent atteindre les différentes structures du groupe.",
+          "termesTechniques": [
+
+          ],
+          "realisations": [
+            {
+              "titre": "Conception et développement de l'application",
+              "description": "Le fonctionnement de l'application est récursif. C'est à dire que la société mère (le Groupe Hervé) définit les objectifs communs à toutes ses sociétés filiales, celles-ci peuvent affiner et/ou modifier ces objectifs originaux qui serviront de base de définition des objectifs des Agences et ainsi de suite pour les Secteurs et les Sous-Secteurs.",
+              "termesTechniques": [
+                1,
+                4,
+                7,
+                11,
+                13,
+                61,
+                64,
+                73,
+                78,
+                91,
+                112,
+                130
+              ]
+            }
+          ]
+        }, {
+          "id": 7,
+          "nom": "GDA:  Gestion Des Achats",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "descriptionCourte": "L'application «Gestion Des Achats» a pour but de simplifier le processus de création de commande qui était historiquement effectué par Oracle Application. Fonctionnalités clés: importation de devis, gestion des besoins, passage de commandes, réceptions et tableaux de synthèse.",
+          "description": "L'application «Gestion Des Achats» a pour but de simplifier le processus de création de commande qui était historiquement effectué par Oracle Application. L'application pourra interopérer plus facilement avec le système d'information, notamment avec les données produites par l'outil de chiffrage ou le reférentiel des articles. Tout ceci dans un environnement Eclipse RCP pour la partie cliente et Tomcat Hibernate coté serveur. Cet environnement permet de travailler le plus longtemps possible en mode déconnecté.",
+          "termesTechniques": [
+            1,
+            13,
+            40,
+            43,
+            61,
+            63,
+            69,
+            73,
+            78,
+            100,
+            107
+          ],
+          "realisations": [
+            {
+              "titre": "Mise en Cache des Projets",
+              "description": "Certains projets contiennent plus de 30  000 nœuds à charger. L'utilisation d'une base de donnée relationnelle et d'Hibernate atteint ses limites puisqu'il faut parfois 5 minutes pour charger un projet. C'est pourquoi, l'utilisateur peut opter pour la mise en cache des projets dans des BLOB SQL. Les BLOB contiennent la sérialisation Java des projets à mettre en cache. Cette technique permet d'améliorer les performances de chargement d'un facteur 30. L'invalidation du cache a lieu à chaque évolution du modèle et/ou si les données ont été mises à jour depuis une application externe. Il faut rappeler que les optimisations Hibernate ont été poussées dans leurs derniers retranchements notamment avec les sélections par lot (batch-size).",
+              "termesTechniques": [
+                11,
+                32,
+                33,
+                146
+              ]
+            }, {
+              "titre": "Gestion par Exercice",
+              "description": "Certains projets sont particuliers et disposent d'un budget alloué pour l'année. Le budget initial se dégrève à chaque ajout de nouveaux besoins. Les vues sont préfiltrées sur l'exercice courant et l'utilisateur a la possibilité de consulter les exercices antérieurs.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Globalisation des achats",
+              "description": "L'utilisateur peut exporter un ensemble de besoins en phase de préparation au format Microsoft Excel. Cela permet de regrouper les besoins communs d'un ensemble de projets pour obtenir plus facilement des rabais de la part des fournisseurs.",
+              "termesTechniques": [
+                144
+              ]
+            }, {
+              "titre": "Historique des Synthèses",
+              "description": "De façon transparente et après chaque sauvegarde de projet, l'application commite sur un dépôt dédié la synthèse hiérarchique des montants des besoins. L'utilisateur peut ensuite ouvrir un outil de comparaison, signalant tous les changements qu'il y eu entre deux versions différentes de synthèse.",
+              "termesTechniques": [
+                32,
+                33,
+                131,
+                134
+              ]
+            }, {
+              "titre": "Réception des Commandes",
+              "description": "Tout comme la validation des commandes, la phase de réception doit aussi se faire au travers d'Oracle Application avec les mêmes problématiques transactionnelles.",
+              "termesTechniques": [
+                11,
+                12,
+                32,
+                33
+              ]
+            }, {
+              "titre": "Validation des commandes",
+              "description": "L'étape finale d'une commande, sa «validation», est toujours liée au système Oracle Application. L'application est interopérable avec ce systéme et à chaque validation de commande dans GDA une commande est validée du côté d'Oracle Application. Ici la difficulté est que la transaction n'est pas globale et qu'un système a été mis en place pour effectuer tout le nettoyage en cas d'erreur d'Oracle Application.",
+              "termesTechniques": [
+                11,
+                12,
+                32,
+                33
+              ]
+            }, {
+              "titre": "Élaboration de tableaux de synthèse",
+              "description": "Un projet d'achat brasse un grand nombre d'entités. Un onglet spécifique a été développé pour présenter différent rapports comme par exemple la répartition de montants par catégorie de besoin.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Réalisation d'Actions de masse",
+              "description": "Ces actions sont implémentées en utilisant le patron de conception «Visiteur» qui facilite grandement le parcours d'arbre et au passage la modification de ses nœuds. Par exemple, il est possible de changer la date de besoin de tous les besoins descendants d'un lot particulié.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Développement des modules CRUD pour les parties: Besoin, Intention d'Achat, Commande, Réception",
+              "description": "L'application use beaucoup du Drag & Drop dans les phases de transformation de modèle. Comme par exemple la transformation d'un besoin en intention d'achat s'effectue en glissant un besoin pour le déposer dans l'arbre des Intentions d'Achat. Chacune des parties dispose d'une zone de filtrage. Les filtres s'effectuent en temps réel et l'utilisateur est informé en retour par l'application de styles sur les portions de libellé qui satisfont les critères de recherche. Dans certaines vue, l'utilisateur a aussi la possibilité de choisir parmis différentes options de représentation de données. Il est par exemple possible d'afficher l'arbre des commandes soit en utilisant une vision par «date de besoin» où par «acheteur». L'ergonomie de l'application a été mûrement réfléchie avec par exemple l'apparition d'infobulles expliquant les contraintes fontionnelles qui empêchent de déposer un élément sur le nœud d'un arbre.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Développement de la fonctionnalité d'import de devis",
+              "description": "Issu de l'outil de chiffrage l'import du devis consiste en une transformation de modèle. Les lignes de devis sont converties en lignes de besoin pour de potentielles commandes.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Conception d'un module gérant une pile d'actions annulables",
+              "description": "La difficulté d'un tel module est qu'après chaque sauvegarde sur le serveur c'est une toute nouvelle référence du projet d'achat qui remonte sur le client. Il faut que le module soit capable de se synchroniser avec la référence la plus récente. Il se dote donc de primitives utilisées avant chaque annulation. Elles permettent de vérifier si l'action à refaire ou à défaire concerne des entités désynchronisées. Si tel est le cas il faut retrouver au moyen du patron de conception «visiteur» le contexte qui est en phase avec ladite action.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }
+          ]
+        }, {
+          "id": 6,
+          "nom": "OSCAR:  Outil Simplifié de Conception d'Automatisme et de Régulation",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "descriptionCourte": "Outil permettant la description du réseau de régulation (Climatisation, Chauffage …) à établir dans un bâtiment particulier. Fonctionnalités clés : estimation de la fourniture en électricité à commander, édition des bilans de puissance, édition graphique de systèmes et génération de spécification.",
+          "description": "Cet outil permet, au sein d'un client Eclipse RCP, de décrire la structure du réseau de régulation (Climatisation, Chauffage …) à établir dans un bâtiment particulier. Utilisée par les bureaux d'étude, l'application est capable d'effectuer des calculs de puissance pour estimer la fourniture en électricité à commander à EDF. Les utilisateurs peuvent aussi: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>configurer des automates,</li><li><i class=\"fa-li fa fa-angle-right\"></i>concevoir l'architecture des systèmes de régulation avec la possibilité d'éditer des graphiques représentant ses systèmes «à la façon AutoCAD»,</li><li><i class=\"fa-li fa fa-angle-right\"></i>d'exporter au format Excel différents bilans de puissance,</li><li><i class=\"fa-li fa fa-angle-right\"></i>de construire automatiquement une spécification à partir des différentes informations disponibles dans le projet d'étude.</li></ul>",
+          "termesTechniques": [
+              1,
+              13,
+              40,
+              43,
+              61,
+              63,
+              69,
+              73,
+              78,
+              100,
+              107
+          ],
+          "realisations": [
+            {
+              "titre": "Édition PDF de la spécification",
+              "description": "La prévisualisation XHTML peut être éditée au format PDF via une transformation XSLT vers FOP.",
+              "termesTechniques": [
+                25,
+                26,
+                119,
+                138,
+                140,
+                141,
+                145
+              ]
+            }, {
+              "titre": "Prévisualisation de la spécification au format XHTML",
+              "description": "Chaque Bâtiment / Niveau / Installation / Système dispose d'une description issue d'un référentiel de document au format DOCX de Microsoft. Le module est capable d'extraire la structure de chaque document, de la convertir en HTML et de fusionner l'ensemble de ces documents en une page de prévisualisation. Des marqueurs sont disposés en marge de la page pour indiquer les endroits où des manques subsistent dans la documentation. L'utilisateur peut cliquer sur des liens d'accès rapide permettant d'éditer dans un module WISIWIG dédié, les sous-parties de la spécification.",
+              "termesTechniques": [
+                4,
+                25,
+                26,
+                93,
+                119,
+                140,
+                142,
+                143,
+                145
+              ]
+            }, {
+              "titre": "Module d'export des bilans de puissance au format Excel",
+              "description": "L'utilisateur a la possibilité d'exporter en fonction du nœud où il se trouve, les bilans de puissance issus des informations électriques des systèmes et des alimentations fournies.",
+              "termesTechniques": [
+                144
+              ]
+            }, {
+              "titre": "Conception d'un module d'édition graphique pour les systèmes et leurs élements",
+              "description": "Les systèmes provenant du référentiel peuvent être associés à des fichiers AutoCAD. Le module est capable d'analyser ces fichiers pour les inclure dans le diagramme global de l'installation. L'utilisateur dispose d'une palette de systèmes provenant du référentiel, pouvant être glissés puis déposés sur le graphique. Chacun des systèmes peut être explosé pour pouvoir éditer les sous éléments. Les éditions possibles vont de l'ajout de primitives comme des lignes, rectangles, ellipses, le choix des couleurs, des opérations de transformation (rotation, mirroir horizontal / vertical, la position et la taille), une fois les éléments modifiés, l'utilisateur les refusionne en une seule image de système. L'utilisateur a également la possibilité d'ajouter des notes sur le schéma de l'installation.",
+              "termesTechniques": [
+                2,
+                3,
+                19,
+                48,
+                132,
+                133,
+                145
+              ]
+            }, {
+              "titre": "Module de conception des systèmes et de leurs éléments",
+              "description": "Un référentiel permet de créer simplement des instances de système, l'utilistateur peut aussi créer des systèmes de toute pièce. Certains éléments de ces systèmes peuvent comporter des informations relatives à leur puissance électrique. Ces informations seront utiles pour établir les différents bilans de puissance. Les élément décrivent aussi des entrées / sorties, analogiques ou numériques permettant de dimensionner le besoin en automates.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Configuration des automates",
+              "description": "Configuration des automates pour une installation donnée.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Implémentation du module de gestion des alimentations.",
+              "description": "En fonction des caractéristiques des alimentations (Tri Phasé, Mono Phasé …), différents type de puissances doivent être calculées (kW, kVAR, kVA). Pour une intallation donnée, plusieurs alimentations peuvent être définies. Les éléments de l'installation sont connectables aux alimentations et l'application signal à l'utilisateur toute incohérence comme par exemple: connecter un élément sur une alimentation incompatible.",
+              "termesTechniques": [
+                32,
+                33
+              ]
+            }, {
+              "titre": "Socle Eclipse RCP",
+              "description": "Construction du socle RCP compatible avec le framework interne HTIC et Java Web Start.",
+              "termesTechniques": [
+                49,
+                50,
+                135,
+                136
+              ]
+            }
+          ]
+        }, {
+          "id": 5,
+          "nom": "Maintenance Applicative",
+          "client": "iMDEO pour le Groupe Hervé  (Tours) ",
+          "description": "Le système d'information du Groupe Hervé dispose d'une large panoplie d'applications. Les évolutions législatives, les remontées de bugs où en encore les demandes d'ajout de nouvelles fonctionnalités m'ont amenées à intervenir sur certaines de ces applications.",
+          "termesTechniques": [
+            1,
+            13,
+            61,
+            63,
+            73,
+            78,
+            100,
+            107,
+            135
+          ],
+          "realisations": [
+            {
+              "titre": "Maintenance de l'application « Outil de Chiffrage »",
+              "description": "Cette application basée sur SWT / JFace permet la création, le versionning et l'édition PDF de devis.",
+              "termesTechniques": [
+                21,
+                32,
+                33,
+                113,
+                118,
+                119,
+                136
+              ]
+            }, {
+              "titre": "Maintenance de l'application « Gestion des Partenaires »",
+              "description": "Application basée sur le framework interne d'iMDEO HTIC. Elle gère l'ensemble des partenaires du Groupe Hervé.",
+              "termesTechniques": [
+                112
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "debut": "2007-09-01",
+      "fin": "2008-10-31",
+      "entreprise": "Capgemini (Rennes)",
+      "statut": "Ingénieur d’étude",
+      "projets": [
+        {
+          "id": 4,
+          "nom": "ITCS : Infrastructure Technique Commune de Simulation",
+          "client": "DGA: Direction Générale de l'Armement",
+          "descriptionCourte": "Développement d'outils visant à rendre interopérable les différentes simulations de la DGA.",
+          "description": "Le projet vise à mettre en place l’interopérabilité des différentes simulations de la DGA. Le système d’information ITCS permet de réaliser de bout en bout une fédération de simulations en respectant un cycle en V: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la conception,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'architecture,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la configuration de l’exécution,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'exécution de la fédération,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'analyse des données résultantes de l’exécution.</li></ul> L’interopérabilité est possible grâce aux kits d’interfaçage ITCS développés pour chacun des fédérés constituant la fédération.",
+          "termesTechniques": [
+            1,
+            13,
+            61,
+            63,
+            71,
+            82,
+            102
+          ],
+          "realisations": [
+            {
+              "titre": "Coupleur générique",
+              "description": "Développement d’un modèle coupleur générique pour la structure d’accueil SAGESSE.",
+              "termesTechniques": [
+                103
+              ]
+            }, {
+              "titre": "Développement d'IHM",
+              "description": "Développement sous Eclipse RCP d’IHM permettant de configurer les différentes applications ITCS.",
+              "termesTechniques": [
+                32,
+                33,
+                35,
+                40
+              ]
+            }, {
+              "titre": "Conception d'une passerelle",
+              "description": "Mise en place d’une passerelle transformant des données EMF provenant de scénarios d’initialisation et opérationnels en données ITCS. Transfert des données ITCS au visuel 2D/3D grâce à l’infrastructure de distribution.",
+              "termesTechniques": [
+                35,
+                104
+              ]
+            }, {
+              "titre": "Conception d'un kit d'interfaçage",
+              "description": "Développement d’un kit d’interfaçage pour un outil de visualisation d’entités de simulation. Mise en place d’une passerelle pour communiquer avec l’outil.",
+              "termesTechniques": [
+                2,
+                18
+              ]
+            }, {
+              "titre": "Infrastructure de distribution de données",
+              "description": "Conception et développement d’une infrastructure de distribution de données de simulation.",
+              "termesTechniques": [
+                22,
+                61,
+                69
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stagesEtProjetsFinEtude": [
+    {
+      "debut": "2007-03-01",
+      "fin": "2007-08-31",
+      "entreprise": "Capgemini (Rennes)",
+      "statut": "Stagiaire",
+      "projets": [
+        {
+          "id": 3,
+          "nom": "ITCS : Infrastructure Technique Commune de Simulation",
+          "client": "DGA: Direction Générale de l'Armement",
+          "description": "Le projet vise à mettre en place l’interopérabilité des différentes simulations de la DGA. Le système d’information ITCS permet de réaliser de bout en bout une fédération de simulations en respectant un cycle en V: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la conception,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'architecture,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la configuration de l’exécution,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'exécution de la fédération,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'analyse des données résultantes de l’exécution.</li></ul> L’interopérabilité est possible grâce aux kits d’interfaçage ITCS développés pour chacun des fédérés constituant la fédération.",
+          "termesTechniques": [
+            1,
+            13,
+            63
+          ],
+          "realisations": [
+            {
+              "titre": "Conception d’un socle technique",
+              "description": "Conception d’un socle technique permettant l’interconnexion de composants de services basé sur Equinox (implémentation de la norme OSGi), la programmation par Aspect et les annotations JAVA.",
+              "termesTechniques": [
+                9,
+                40,
+                49,
+                50,
+                61,
+                69
+              ]
+            }, {
+              "titre": "Comparaison de bibliothèques",
+              "description": "Comparaison des bibliothèques GumTree et JFreeChart pour le rendu de courbes actualisées en temps réel par des données en provenance de simulateurs.",
+              "termesTechniques": [
+                32,
+                33,
+                40
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "debut": "2006-10-01",
+      "fin": "2007-02-28",
+      "entreprise": "",
+      "statut": "Étudiant (DIIC Rennes)",
+      "projets": [
+        {
+          "id": 2,
+          "nom": "Monitoring du jeu video Soldat",
+          "client": "",
+          "description": "Le but de ce projet, réalisé au cours de la formation d'ingénieur, est la réalisation d'un outil d'administration en C++ sous Linux pour le jeu en ligne Soldat. Cet outil doit intégrer:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>le multithreading,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la notion de scripts Lua exécutés lors de l'arrivée de certains évènements tels que la connexion d’un nouveau joueur ou la fin d’une partie,</li><li><i class=\"fa-li fa fa-angle-right\"></i> il doit enfin fournir une IHM grâce à la bibliothèque Ncurses.</li></ul>",
+          "termesTechniques": [
+          ],
+          "realisations": [
+            {
+              "titre": "Développement d’un serveur d’administration multithreadé",
+              "description": "Développement d’un serveur d’administration multithreadé, les clients étant les serveurs de jeu.",
+              "termesTechniques": [
+                3,
+                139,
+                59,
+                67
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "debut": "2006-06-01",
+      "fin": "2006-09-30",
+      "entreprise": "Capgemini (Rennes)",
+      "statut": "Étudiant (DIIC)",
+      "projets": [
+        {
+          "id": 1,
+          "nom": "Projet OEDIPP",
+          "client": "DAM:  Direction des Affaires Maritimes (Saint Malo)",
+          "description": "Ce projet accompagne la réforme du permis de conduire et la formation à la conduite des bateaux de plaisance à moteur. Le projet OEDIPP a pour but de pallier les faiblesses des outils existants en termes de fonctionnalités: <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la gestion informatisée des dossiers d'inscription,</li><li><i class=\"fa-li fa fa-angle-right\"></i>l'organisation, la gestion et les résultats des sessions d'examen des épreuves théoriques,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la délivrance des titres de conduites,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la gestion informatisée des centres d'examen.</li></ul>",
+          "termesTechniques": [
+          ],
+          "realisations": [
+            {
+              "titre": "Développement sur architecture 3 tiers",
+              "description": "Création des vues pour la gestion des centres et des sessions d’examens (Présentation / Métier / Accès aux données).<br />Création d’un messager chargé d’envoyer des mails de notification aux organisateurs de session.",
+              "termesTechniques": [
+                1,
+                13,
+                43,
+                44,
+                60,
+                63,
+                78,
+                108
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projetsPersonnels": [
+    {
+      "libelle": "Suivi de conférence",
+      "valeur":  ["Breizh JUG", "Tours JUG", "Scala IO (Paris)"]
+    }, {
+      "libelle": "Développement",
+      "valeur":  ["CV en ligne avec Angular"]
+    }, {
+      "libelle": "Développement d'un outil JS  c'était avant que grunt existe",
+      "valeur":  ["CV en ligne avec Angular"]
+    }, {
+      "libelle": "Développement timeline",
+      "valeur":  ["CV en ligne avec Angular"]
+    }
+  ],
+  "divers": [
+    {
+      "libelle": "Sport",
+      "valeur":  ["Roller", "Squash"]
+    }, {
+      "libelle": "Musique",
+      "valeur":  ["Flûte traversière irlandaise", "Guitare"]
+    }, {
+      "libelle": "Lecture",
+      "valeur":  ["The Lean Startup"]
+    }, {
+      "libelle": "Pratique",
+      "valeur":  ["Clavier Type Matrix BÉPO"]
+    }
+  ],
+  "categoriesTermeTechnique": [
+    {
+      "id": 1,
+      "libelle": {
+        "fr": "Langages de Programmation",
+        "en": "Programming Languages"
+      },
+      "imprimer": true
+    }, {
+      "id": 2,
+      "libelle": {
+        "fr": "Outils de Développement",
+        "en": "Development Tools"
+      },
+      "imprimer": false
+    }, {
+      "id": 3,
+      "categoriesParentes": [],
+      "libelle": {
+        "fr": "Bibliothèques",
+        "en": "Libraries"
+      },
+      "imprimer": true
+    }, {
+      "id": 4,
+      "libelle": {
+        "fr": "Système de Gestion de Version",
+        "en": "Version Control System"
+      },
+      "imprimer": false
+    }, {
+      "id": 5,
+      "libelle": {
+        "fr": "Système d'Exploitation",
+        "en": "Operating System"
+      },
+      "imprimer": false
+    }, {
+      "id": 6,
+      "libelle": {
+        "fr": "Méthodologie",
+        "en": "Methodology"
+      },
+      "imprimer": false
+    }, {
+      "id": 7,
+      "libelle": {
+        "fr": "Intégration Continue",
+        "en": "Continuous Integration"
+      },
+      "imprimer": true
+    }, {
+      "id": 8,
+      "libelle": {
+        "fr": "Base de Donnée",
+        "en": "Database"
+      },
+      "imprimer": true
+    }, {
+      "id": 9,
+      "libelle": {
+        "fr": "Outil de build",
+        "en": "Build Tool"
+      },
+      "imprimer": false
+    }, {
+      "id": 10,
+      "libelle": {
+        "fr": "Frameworks",
+        "en": "Frameworks"
+      },
+      "imprimer": true
+    }, {
+      "id": 11,
+      "libelle": {
+        "fr": "Serveur d'Application",
+        "en": "Application Server"
+      },
+      "imprimer": true
+    }, {
+      "id": 12,
+      "libelle": {
+        "fr": "Serveur HTTP",
+        "en": "HTTP Server"
+      },
+      "imprimer": false
+    }, {
+      "id": 13,
+      "libelle": {
+        "fr": "Concepts / Domaines",
+        "en": "Concepts / Domains"
+      },
+      "imprimer": false
+    }, {
+      "id": 14,
+      "libelle": {
+        "fr": "Templating",
+        "en": "Templating"
+      },
+      "imprimer": false
+    }, {
+      "id": 15,
+      "libelle": {
+        "fr": "Test Unitaire",
+        "en": "Unit Test"
+      },
+      "imprimer": true
+    }, {
+      "id": 16,
+      "libelle": {
+        "fr": "Gestionnaire de Dépendance",
+        "en": "Dependency Manager"
+      },
+      "imprimer": false
+    }, {
+      "id": 17,
+      "libelle": {
+        "fr": "Scaffolding",
+        "en": "Scaffolding"
+      },
+      "imprimer": false
+    }, {
+      "id": 18,
+      "libelle": {
+        "fr": "Protocole",
+        "en": "Protocol"
+      },
+      "imprimer": false
+    }, {
+      "id": 19,
+      "libelle": {
+        "fr": "Plateforme",
+        "en": "Platform"
+      },
+      "imprimer": false
+    }, {
+      "id": 20,
+      "libelle": {
+        "fr": "Formats de donnée",
+        "en": "Data Formats"
+      },
+      "imprimer": false
+    }, {
+      "id": 21,
+      "libelle": {
+        "fr": "Spécifications",
+        "en": "Specifications"
+      },
+      "imprimer": false
+    }, {
+      "id": 22,
+      "libelle": {
+        "fr": "Ressources Documentaires",
+        "en": "Resources"
+      },
+      "imprimer": true
+    }
+  ],
+  "termesTechniques": [
+    {
+      "id": 1,
+      "categories": [1],
+      "libelle": "Java"
+    }, {
+      "id": 2,
+      "categories": [1],
+      "libelle": "C"
+    }, {
+      "id": 3,
+      "categories": [1],
+      "libelle": "C++"
+    }, {
+      "id": 4,
+      "categories": [1],
+      "libelle": "JavaScript"
+    }, {
+      "id": 5,
+      "categories": [1],
+      "libelle": "CoffeeScript"
+    }, {
+      "id": 6,
+      "categories": [1],
+      "libelle": "ActionScript"
+    }, {
+      "id": 7,
+      "categories": [1],
+      "libelle": "CSS"
+    }, {
+      "id": 8,
+      "categories": [1],
+      "libelle": "Scala"
+    }, {
+      "id": 9,
+      "categories": [1],
+      "libelle": "AspectJ"
+    }, {
+      "id": 10,
+      "categories": [1],
+      "libelle": "HTML5"
+    }, {
+      "id": 11,
+      "categories": [1, 8],
+      "libelle": "SQL"
+    }, {
+      "id": 12,
+      "categories": [1, 8],
+      "libelle": "PL/SQL"
+    }, {
+      "id": 13,
+      "categories": [2],
+      "libelle": "Eclipse"
+    }, {
+      "id": 14,
+      "categories": [2],
+      "libelle": "IntelliJ IDEA"
+    }, {
+      "id": 15,
+      "categories": [2],
+      "libelle": "Visual Studio"
+    }, {
+      "id": 16,
+      "categories": [2],
+      "libelle": "Flash Builder"
+    }, {
+      "id": 17,
+      "categories": [1],
+      "libelle": "PHP"
+    }, {
+      "id": 18,
+      "categories": [3],
+      "libelle": "JNI"
+    }, {
+      "id": 19,
+      "categories": [3],
+      "libelle": "JNA"
+    }, {
+      "id": 20,
+      "categories": [21],
+      "libelle": "JAX-RS"
+    }, {
+      "id": 21,
+      "categories": [3, 21],
+      "libelle": "JAXB"
+    }, {
+      "id": 22,
+      "categories": [3],
+      "libelle": "RMI"
+    }, {
+      "id": 23,
+      "categories": [14],
+      "libelle": "JSP"
+    }, {
+      "id": 24,
+      "categories": [14],
+      "libelle": "Velocity"
+    }, {
+      "id": 25,
+      "categories": [1],
+      "libelle": "XSLT"
+    }, {
+      "id": 26,
+      "categories": [1],
+      "libelle": "XPATH"
+    }, {
+      "id": 27,
+      "categories": [13],
+      "libelle": "Hypermedia"
+    }, {
+      "id": 28,
+      "categories": [13],
+      "libelle": "REST"
+    }, {
+      "id": 29,
+      "categories": [13],
+      "libelle": "HATEOAS"
+    }, {
+      "id": 30,
+      "categories": [3],
+      "libelle": "SWING"
+    }, {
+      "id": 31,
+      "categories": [3],
+      "libelle": "AWT"
+    }, {
+      "id": 32,
+      "categories": [3],
+      "libelle": "SWT"
+    }, {
+      "id": 33,
+      "categories": [3],
+      "libelle": "JFace"
+    }, {
+      "id": 34,
+      "categories": [3],
+      "libelle": "iText"
+    }, {
+      "id": 35,
+      "categories": [10],
+      "libelle": "EMF"
+    }, {
+      "id": 36,
+      "categories": [3, 10],
+      "libelle": "Spring Core"
+    }, {
+      "id": 37,
+      "categories": [3, 10],
+      "libelle": "Spring MVC"
+    }, {
+      "id": 38,
+      "categories": [10],
+      "libelle": "Spring AOP"
+    }, {
+      "id": 39,
+      "categories": [10],
+      "libelle": "Jersey"
+    }, {
+      "id": 40,
+      "categories": [10],
+      "libelle": "Eclipse RCP"
+    }, {
+      "id": 41,
+      "categories": [10],
+      "libelle": "Flex"
+    }, {
+      "id": 42,
+      "categories": [3],
+      "libelle": "Eclipse JDT"
+    }, {
+      "id": 43,
+      "categories": [3],
+      "libelle": "Hibernate"
+    }, {
+      "id": 44,
+      "categories": [3],
+      "libelle": "Struts"
+    }, {
+      "id": 45,
+      "categories": [3],
+      "libelle": "Tiles"
+    }, {
+      "id": 46,
+      "categories": [1],
+      "libelle": "Less"
+    }, {
+      "id": 47,
+      "categories": [1],
+      "libelle": "Sass",
+      "url": "http://sass-lang.com"
+    }, {
+      "id": 48,
+      "categories": [3],
+      "libelle": "DWGDirect",
+      "url": "http://www.opendwg.org/"
+    }, {
+      "id": 49,
+      "categories": [21],
+      "libelle": "OSGi",
+      "url": "http://www.osgi.org/Main/HomePage"
+    }, {
+      "id": 50,
+      "categories": [3],
+      "libelle": "Equinox"
+    }, {
+      "id": 51,
+      "categories": [3, 15],
+      "libelle": "JUnit"
+    }, {
+      "id": 52,
+      "categories": [3, 15],
+      "libelle": "Mockito"
+    }, {
+      "id": 53,
+      "categories": [3, 17],
+      "libelle": "Spec2"
+    }, {
+      "id": 54,
+      "categories": [3, 17],
+      "libelle": "ScalaTest"
+    }, {
+      "id": 55,
+      "categories": [3],
+      "libelle": "Akka"
+    }, {
+      "id": 56,
+      "categories": [3],
+      "libelle": "Dozer"
+    }, {
+      "id": 57,
+      "categories": [10],
+      "libelle": "Bootstrap"
+    }, {
+      "id": 58,
+      "categories": [3, 10],
+      "libelle": "Compass"
+    }, {
+      "id": 59,
+      "categories": [3],
+      "libelle": "Boost"
+    }, {
+      "id": 60,
+      "categories": [4],
+      "libelle": "CVS"
+    }, {
+      "id": 61,
+      "categories": [4],
+      "libelle": "SVN"
+    }, {
+      "id": 62,
+      "categories": [4],
+      "libelle": "GIT"
+    }, {
+      "id": 63,
+      "categories": [5],
+      "libelle": "Windows XP"
+    }, {
+      "id": 64,
+      "categories": [5],
+      "libelle": "Windows Seven"
+    }, {
+      "id": 65,
+      "categories": [5],
+      "libelle": "Windows 8"
+    }, {
+      "id": 66,
+      "categories": [5],
+      "libelle": "Debian"
+    }, {
+      "id": 67,
+      "categories": [5],
+      "libelle": "Ubuntu"
+    }, {
+      "id": 68,
+      "categories": [5],
+      "libelle": "Linux Mint"
+    }, {
+      "id": 69,
+      "categories": [6],
+      "libelle": "UML"
+    }, {
+      "id": 70,
+      "categories": [7],
+      "libelle": "Jenkins"
+    }, {
+      "id": 71,
+      "categories": [7],
+      "libelle": "Hudson"
+    }, {
+      "id": 72,
+      "categories": [8],
+      "libelle": "Oracle 9"
+    }, {
+      "id": 73,
+      "categories": [8],
+      "libelle": "Oracle 10g"
+    }, {
+      "id": 74,
+      "categories": [8],
+      "libelle": "HSQL"
+    }, {
+      "id": 75,
+      "categories": [8],
+      "libelle": "H2"
+    }, {
+      "id": 76,
+      "categories": [10],
+      "libelle": "AngularJS"
+    }, {
+      "id": 77,
+      "categories": [9],
+      "libelle": "Grunt"
+    }, {
+      "id": 78,
+      "categories": [11],
+      "libelle": "Tomcat"
+    }, {
+      "id": 79,
+      "categories": [11],
+      "libelle": "Play 2 Framework"
+    }, {
+      "id": 80,
+      "categories": [3],
+      "libelle": "Scalaz"
+    }, {
+      "id": 81,
+      "categories": [3],
+      "libelle": "Shapeless"
+    }, {
+      "id": 82,
+      "categories": [9, 16],
+      "libelle": "Maven"
+    }, {
+      "id": 83,
+      "categories": [10],
+      "libelle": "SBT"
+    }, {
+      "id": 84,
+      "categories": [16],
+      "libelle": "NPM"
+    }, {
+      "id": 85,
+      "categories": [16],
+      "libelle": "Bower"
+    }, {
+      "id": 86,
+      "categories": [17],
+      "libelle": "Yeoman"
+    }, {
+      "id": 87,
+      "categories": [10],
+      "libelle": "Node.js"
+    }, {
+      "id": 88,
+      "categories": [3],
+      "libelle": "Require.js"
+    }, {
+      "id": 89,
+      "categories": [3],
+      "libelle": "angular-ui-router"
+    }, {
+      "id": 90,
+      "categories": [3],
+      "libelle": "bootstrap-sass"
+    }, {
+      "id": 91,
+      "categories": [3],
+      "libelle": "underscore"
+    }, {
+      "id": 92,
+      "categories": [3],
+      "libelle": "LoDash"
+    }, {
+      "id": 93,
+      "categories": [3],
+      "libelle": "jQuery"
+    }, {
+      "id": 94,
+      "categories": [3],
+      "libelle": "URI.js"
+    }, {
+      "id": 96,
+      "categories": [12],
+      "libelle": "Apache"
+    }, {
+      "id": 97,
+      "categories": [12],
+      "libelle": "Nginx"
+    }, {
+      "id": 98,
+      "categories": [13],
+      "libelle": "Reactive Programming"
+    }, {
+      "id": 99,
+      "categories": [13],
+      "libelle": "Event Sourcing"
+    }, {
+      "id": 100,
+      "categories": [9],
+      "libelle": "Ant"
+    }, {
+      "id": 101,
+      "categories": [3],
+      "libelle": "RxScala"
+    }, {
+      "id": 102,
+      "categories": [5],
+      "libelle": "Cent OS"
+    }, {
+      "id": 103,
+      "categories": [18],
+      "libelle": "TCP/IP"
+    }, {
+      "id": 104,
+      "categories": [18],
+      "libelle": "HLA"
+    }, {
+      "id": 105,
+      "categories": [3],
+      "libelle": "JFreeChart"
+    }, {
+      "id": 106,
+      "categories": [1],
+      "libelle": "XMI"
+    }, {
+      "id": 107,
+      "categories": [2],
+      "libelle": "SQL Developer"
+    }, {
+      "id": 108,
+      "categories": [2],
+      "libelle": "TOAD"
+    }, {
+      "id": 109,
+      "categories": [10],
+      "libelle": "Lua"
+    }, {
+      "id": 110,
+      "categories": [19],
+      "libelle": "Mobile"
+    }, {
+      "id": 111,
+      "categories": [19],
+      "libelle": "Android"
+    }, {
+      "id": 112,
+      "categories": [19],
+      "libelle": "Navigateur"
+    }, {
+      "id": 113,
+      "categories": [19],
+      "libelle": "Client Lourd"
+    }, {
+      "id": 114,
+      "categories": [13],
+      "libelle": {
+        "fr": "Test Unitaire",
+        "en": "Unit Test"
+      }
+    }, {
+      "id": 115,
+      "categories": [13],
+      "libelle": "Généricité"
+    }, {
+      "id": 116,
+      "categories": [13],
+      "libelle": "TDD"
+    }, {
+      "id": 117,
+      "categories": [3],
+      "libelle": "Spring Rest Template"
+    }, {
+      "id": 118,
+      "categories": [3],
+      "libelle": "StreamServe"
+    }, {
+      "id": 119,
+      "categories": [1, 20],
+      "libelle": "XML",
+      "url": "http://www.w3.org/XML/"
+    }, {
+      "id": 120,
+      "categories": [20],
+      "libelle": "JSON",
+      "url": "http://www.json.org"
+    }, {
+      "id": 121,
+      "categories": [3],
+      "libelle": "Guava",
+      "url": "http://code.google.com/p/guava-libraries/"
+    }, {
+      "id": 122,
+      "categories": [21],
+      "libelle": "JSR 223",
+      "url": "http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/"
+    }, {
+      "id": 123,
+      "categories": [3],
+      "libelle": "Spring Security"
+    }, {
+      "id": 124,
+      "categories": [13],
+      "libelle": "Asynchronisme"
+    }, {
+      "id": 125,
+      "categories": [13],
+      "libelle": "Interopérabilité"
+    }, {
+      "id": 126,
+      "categories": [3],
+      "libelle": "Config",
+      "url": "https://github.com/typesafehub/config"
+    }, {
+      "id": 127,
+      "categories": [3],
+      "libelle": "Blaze DS"
+    }, {
+      "id": 128,
+      "categories": [3],
+      "libelle": "Parsley"
+    }, {
+      "id": 129,
+      "categories": [3],
+      "libelle": "Spicelib"
+    }, {
+      "id": 130,
+      "categories": [3],
+      "libelle": "Bootstrap"
+    }, {
+      "id": 131,
+      "categories": [3],
+      "libelle": "SVNKit"
+    }, {
+      "id": 132,
+      "categories": [3],
+      "libelle": "GEF"
+    }, {
+      "id": 133,
+      "categories": [3],
+      "libelle": "GMF"
+    }, {
+      "id": 134,
+      "categories": [3],
+      "libelle": "EMF Compare"
+    }, {
+      "id": 135,
+      "categories": [10],
+      "libelle": "HTIC"
+    }, {
+      "id": 136,
+      "categories": [3],
+      "libelle": "Java Web Start"
+    }, {
+      "id": 137,
+      "categories": [3],
+      "libelle": "FreeMarker"
+    }, {
+      "id": 138,
+      "categories": [3],
+      "libelle": "FOP"
+    }, {
+      "id": 139,
+      "categories": [2],
+      "libelle": "Eclipse CDT"
+    }, {
+      "id": 140,
+      "categories": [1],
+      "libelle": "XHTML"
+    }, {
+      "id": 141,
+      "categories": [3],
+      "libelle": "SAXON",
+      "url": "http://saxon.sourceforge.net"
+    }, {
+      "id": 142,
+      "categories": [20],
+      "libelle": "DOCX"
+    }, {
+      "id": 143,
+      "categories": [21],
+      "libelle": "OpenDocument"
+    }, {
+      "id": 144,
+      "categories": [3],
+      "libelle": "POI-HSSF"
+    }, {
+      "id": 145,
+      "categories": [13],
+      "libelle": "Multithreading"
+    }, {
+      "id": 146,
+      "categories": [13],
+      "libelle": "Sérialisation",
+      "url": "http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html"
+    }, {
+      "id": 147,
+      "categories": [1],
+      "libelle": "Java Annotations",
+      "url": "http://docs.oracle.com/javase/tutorial/java/annotations/"
+    }, {
+      "id": 148,
+      "categories": [22],
+      "libelle": "REST in Practice",
+      "url": "http://shop.oreilly.com/product/9780596805838.do"
+    }, {
+      "id": 149,
+      "categories": [2],
+      "libelle": "Eclipse STS",
+      "url": "http://shop.oreilly.com/product/9780596805838.do"
+    }, {
+      "id": 150,
+      "categories": [18],
+      "libelle": "HTTP",
+      "url": "http://www.ietf.org/rfc/rfc2616.txt"
+    }, {
+      "id": 151,
+      "categories": [22],
+      "libelle": "Flash Builder 4 and Flex 4 Bible",
+      "url": "http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470488956.html"
+    }, {
+      "id": 152,
+      "categories": [1],
+      "libelle": "XML Schema",
+      "url": "http://www.w3.org/XML/Schema.html"
+    }, {
+      "id": 153,
+      "categories": [3],
+      "libelle": "Jackson",
+      "url": "https://github.com/FasterXML/jackson"
+    }, {
+      "id": 154,
+      "categories": [13],
+      "libelle": "Agilité"
+    }, {
+      "id": 155,
+      "categories": [6],
+      "libelle": "Scrum"
+    }, {
+      "id": 156,
+      "categories": [2],
+      "libelle": "Eclipse MDT",
+      "url": "http://shop.oreilly.com/product/9780596805838.do"
+    }
+  ]
+
+}

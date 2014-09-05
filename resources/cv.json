@@ -5,12 +5,12 @@
     "prenom": "Mickaël",
     "statut": "Freelance en Entreprise Individuelle",
     "naissance": "1984-10-23",
-    "adresse": "20 bis rue du Moulin",
-    "codePostal": "35700",
-    "ville": "Joué Lès Tours",
+    "adresse": "16 Coulon",
+    "codePostal": "35160",
+    "ville": "Montfort-sur-Meu",
     "telephones": {
       "mobile": "07 60 05 04 06",
-      "fixe": "02 34 37 79 27"
+      "fixe": "02 56 49 51 30"
     },
     "email": "mickael.gauvin@gmail.com",
     "siteWeb": "http://mickaelgauvin.github.io",
@@ -107,11 +107,33 @@
   "experiencesProfessionnelles": [
     {
       "debut": "2009-04-01",
-      "fin": "2014-01-31",
+      "fin": "2014-09-30",
       "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
       "statut": "",
       "projets": [
         {
+          "id": 20,
+          "nom": "Générateur de code",
+          "client": "iMDEO (Tours)",
+          "description": "Conception d'un outil de génération de code basé sur un méta-modèle EMF ad hoc.",
+          "termesTechniques": [
+
+          ],
+          "realisations": [
+            {
+              "titre": "Génération des modules et de CRUD",
+              "description": "L'objectif de ce premier lot est de construire, grâce au modèle de génération de code, l'ensemble des modules constituant une application web s'intégrant parfaitement dans l'infrastructure technique existante. L'outil permet en plus de décrire manuellement ou d'importer des entités, de manière à pouvoir générer des CRUD en un click. L'outil tire parti d'Eclipse JDT et d'Eclipse Datatools pour introspecter les différentes métadonnées accessibles en base de données et dans les fichiers sources existants. Ainsi, l'outil peut contraindre le modèle automatiquement. L'utilisateur a la possibilité de customiser la génération de code et de rajouter ses propres contraintes.",
+              "termesTechniques": [
+                1,
+                35,
+                156,
+                157,
+                158,
+                159
+              ]
+            }
+          ]
+        }, {
           "id": 19,
           "nom": "Administration de Référentiels",
           "client": "iMDEO (Tours)",
@@ -1870,6 +1892,18 @@
       "categories": [2],
       "libelle": "Eclipse MDT",
       "url": "http://shop.oreilly.com/product/9780596805838.do"
+    }, {
+      "id": 157,
+      "categories": [10],
+      "libelle": "Eclipse Datatools"
+    }, {
+      "id": 158,
+      "categories": [10],
+      "libelle": "Eclipse Acceleo"
+    }, {
+      "id": 159,
+      "categories": [1],
+      "libelle": "OCL"
     }
   ]
 

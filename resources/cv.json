@@ -103,9 +103,56 @@
     }
   ],
   "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.",
-  "domainesExpertises": "Je considère avoir une bonne connaissance de l'écosystème <strong>J2EE</strong> et plus récemment, suite à l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis perfectionné au niveau des technologies <strong>JavaScript</strong>. Je suis en fait un adepte de <strong>CoffeeScript</strong> et m'adonne à la conception de projets basés sur <strong>AngularJS</strong> qui est pour moi ce qui se rapproche le plus de Flex. J'ai suivi également depuis 2011 des formations en ligne sur <strong>Scala</strong>, un langage que j'affectionne beaucoup, notamment pour l'apport du paradigme <strong>fonctionnel</strong> mais aussi pour les outils qui en découlent, tels que le framework <strong>Play</strong> ou la bibliothèque <strong>Akka</strong>.",
+  "domainesExpertises": "Je considère avoir une bonne connaissance de l'écosystème <strong>J2EE</strong> et plus récemment, suite à l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis perfectionné au niveau des technologies <strong>JavaScript</strong>. Je suis en fait un adepte du langage <strong>CoffeeScript</strong> que j'ai eu l'occasion d'utiliser à maintes reprises sur des projets, pour certains, construits avec <strong>AngularJS</strong>. Depuis 2011 j'ai suivi plusieurs formations en ligne sur <strong>Scala</strong> et j'aime à utiliser de plus en plus le paradigme <strong>fonctionnel</strong> avec notamment l'utilisation de bibliothèques telles que <strong>Underscore</strong> ou <strong>Lodash</strong>.",
   "experiencesProfessionnelles": [
     {
+      "debut": "2014-11-01",
+      "fin": "2014-12-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 22,
+          "nom": "Générateur de code – Lot 2",
+          "client": "iMDEO (Tours)",
+          "description": "Améliorations diverses de l'outil de génération de code. Il s'agit d'améliorer l'ergonomie de l'application, de remplir certains champs du modèle de génération de code de façon automatique et de permettre la gestion de sous-domaines applicatifs.",
+          "termesTechniques": [
+            1,
+            35,
+            156,
+            157,
+            158,
+            159
+          ]
+        }
+      ]
+    }, {
+      "debut": "2014-10-31",
+      "fin": "2014-11-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 21,
+          "nom": "Composant JavaScript : Timeline",
+          "client": "En vue d'une commercialisation",
+          "description": "Conception à titre personnel d'un composant JavaScript permettant la manipulation d'une ligne des temps. Il s'agit en fait d'un portage du même composant développé à la base pour une application de planning faite avec la technologie Flex.",          "termesTechniques": [
+            14,
+            4,
+            5,
+            62,
+            68,
+            77,
+            85,
+            86,
+            87,
+            92,
+            160,
+            161,
+            162,
+            163
+          ]
+        }
+      ]
+    }, {
       "debut": "2009-04-01",
       "fin": "2014-09-30",
       "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
@@ -216,8 +263,8 @@
           "id": 16,
           "nom": "Gestion des Réceptions Mobile",
           "client": "iMDEO pour le Groupe Hervé  (Tours) ",
-          "descriptionCourte": "Application mobile utile aux salariés n'ayant pas d'accès direct à une station de travail. Depuis leur smartphone, ils peuvent enregistrer les réceptions de commandes effectuées au préalable depuis l'application gestion des achats.",
-            "description": "Suite logique de l'application GDA (Gestion Des Achats). Les réceptions de commande s'effectuaient auparavant sur le client lourd GDA (Eclipse RCP). Ceci étant peu pratique pour les salariés, la nouvelle application mobile doit leur faire gagner le temps de la double saisie.",
+          "descriptionCourte": "Application mobile utile aux salariés n'ayant pas d'accès direct à une station de travail. Depuis leur smartphone, ils peuvent enregistrer les réceptions de commandes effectuées au préalable depuis l'application gestion des achats. La partie cliente de cette application est une « Single Page Application » développée avec le framework AngularJS.",
+            "description": "Suite logique de l'application GDA (Gestion Des Achats). Les réceptions de commande s'effectuaient auparavant sur le client lourd GDA (Eclipse RCP). Ceci étant peu pratique pour les salariés, la nouvelle application mobile doit leur faire gagner le temps de la double saisie. La partie cliente de cette application est une « Single Page Application » développée avec le framework AngularJS.",
           "termesTechniques": [
             1,
             4,
@@ -252,6 +299,25 @@
                 120
               ]
             }
+          ]
+        }, {
+          "id": 15000,
+          "nom": "Étude approfondie du framework AngularJS",
+          "client": "iMDEO (Tours)",
+          "description": "Étude des différents composants d'AngularJS et des bibliothèques tierces telles qu'Angular-Strap et Angular-UI-Router.",
+          "termesTechniques": [
+            14,
+            4,
+            5,
+            62,
+            68,
+            77,
+            85,
+            86,
+            87,
+            92,
+            162,
+            163
           ]
         }, {
           "id": 15,
@@ -419,8 +485,8 @@
           "id": 11,
           "nom": "Conception Architecture Technique",
           "client": "iMDEO (Tours)",
-          "descriptionCourte": "Production d'une nouvelle infratructure technique pour augmenter la productivité et la testabilité des projets. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le système d'information (plus de 800 mappings HBM existants).",
-          "description": "L'objectif du projet est de produire une nouvelle infratructure technique pour augmenter la productivité et la testabilité des projets à venir. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le Système d'Information (plus de 800 mappings HBM existants).",
+          "descriptionCourte": "Production d'une nouvelle infrastructure technique pour augmenter la productivité et la testabilité des projets. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le système d'information (plus de 800 mappings HBM existants).",
+          "description": "L'objectif du projet est de produire une nouvelle infrastructure technique pour augmenter la productivité et la testabilité des projets à venir. L'infrastructure se doit d'être interopérable avec les entités Hibernate et les services déjà existants dans le Système d'Information (plus de 800 mappings HBM existants).",
           "termesTechniques": [
             1,
             9,
@@ -609,14 +675,14 @@
           "realisations": [
             {
               "titre": "Recherche Générique",
-              "description": "Conception d'un système de Recherche Générique à base d'Annotations Java. L'idée est de pouvoir facilement générer des résultats de recherche pour n'importe quelle resource, avec un format de représentation commun, ceci pour en faciliter l'affichage côté client.",
+              "description": "Conception d'un système de Recherche Générique à base d'Annotations Java. L'idée est de pouvoir facilement générer des résultats de recherche pour n'importe quelle ressource, avec un format de représentation commun, ceci pour en faciliter l'affichage côté client.",
               "termesTechniques": [
                 147,
                 115
               ]
             }, {
               "titre": "API Hypermedia",
-              "description": "Réflexion sur l'implémentation d'API REST embarquant potentiellement des liens dans les ressources retournées par le serveur. L'idée est de fournir des classes de base abstrayant le concept de ressource et les relations (liens + semantique de relation) vers les autres ressources qui peuvent en découler. Une resource est alors considérée comme un Hypermedia.",
+              "description": "Réflexion sur l'implémentation d'API REST embarquant potentiellement des liens dans les ressources retournées par le serveur. L'idée est de fournir des classes de base abstrayant le concept de ressource et les relations (liens + semantique de relation) vers les autres ressources qui peuvent en découler. Une ressource est alors considérée comme un Hypermedia.",
               "termesTechniques": [
                 27,
                 28,
@@ -1904,6 +1970,22 @@
       "id": 159,
       "categories": [1],
       "libelle": "OCL"
+    }, {
+      "id": 160,
+      "categories": [1],
+      "libelle": "HTML5 – Canvas"
+    }, {
+      "id": 161,
+      "categories": [3],
+      "libelle": "EaselJs"
+    }, {
+      "id": 162,
+      "categories": [15],
+      "libelle": "Karma"
+    }, {
+      "id": 163,
+      "categories": [15],
+      "libelle": "Jasmine"
     }
   ]
 

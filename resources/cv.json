@@ -102,10 +102,91 @@
       }
     }
   ],
-  "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.",
-  "domainesExpertises": "Je considère avoir une bonne connaissance de l'écosystème <strong>J2EE</strong> et plus récemment, suite à l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis perfectionné au niveau des technologies <strong>JavaScript</strong>. Je suis en fait un adepte du langage <strong>CoffeeScript</strong> que j'ai eu l'occasion d'utiliser à maintes reprises sur des projets, pour certains, construits avec <strong>AngularJS</strong>. Depuis 2011 j'ai suivi plusieurs formations en ligne sur <strong>Scala</strong> et j'aime à utiliser de plus en plus le paradigme <strong>fonctionnel</strong> avec notamment l'utilisation de bibliothèques telles que <strong>Underscore</strong> ou <strong>Lodash</strong>.",
+  "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.<br/><br/>",
+  "domainesExpertises": "Au fil des missions que j'ai réalisées, je me suis perfectionné sur les technologies de l'écosystème <strong>J2EE&nbsp;/&nbsp;Spring&nbsp;/&nbsp;Hibernate</strong> et depuis l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis formé davantage au niveau des technologies <strong>JavaScript</strong>. Je suis adepte du langage <strong>CoffeeScript</strong> que j'ai eu l'occasion d'utiliser à maintes reprises sur des projets, pour certains, construits avec <strong>AngularJS</strong>. J'ai participé à des projets liés à des domaines purement techniques mais aussi sur d'autres plus fonctionnels dans le domaine de la <strong>défense</strong>, de la gestion de <strong>planning</strong> ou encore celui du <strong>transport</strong>.<br/><br/><br/>",
   "experiencesProfessionnelles": [
     {
+      "debut": "2014-12-01",
+      "fin": "2015-02-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 22,
+          "nom": "Application de prise de service",
+          "client": "Keolis Rennes",
+          "description": "Création d'une Single Page Application permettant à des conducteurs de bus de consulter leur planning. Un accent particulier a été porté sur la sécurisation de l'accès à la plateforme et à l'accessibilité de l'application. Le développement s'est effectué en accompagnant l'équipe de production tout au long de sa réalisation, le but étant de lui faire apprécier la création de ce type d'application avec les frameworks tels que Hibernate, Spring 4 et AngularJS.",
+          "termesTechniques": [
+            13,
+            62
+          ],
+          "realisations": [
+            {
+              "titre": "Développement d'un socle technique",
+              "description": "L'équipe de développement n'a jamais eu l'occasion de créer des applications sur la base d'environnements J2EE et JavaScript. Un des objectifs de la mission était de fournir les clés d'une production industrialisée d'applications Java et JavaScript. Avant de démarrer concrêtement le développement des fonctionnalités, les postes de développement ont été configurés avec notamment&nbsp;:<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>Maven et Tomcat pour le développement du backend Java,</li><li><i class=\"fa-li fa fa-angle-right\"></i>un serveur Nexus pour les dépôts Java,</li><li><i class=\"fa-li fa fa-angle-right\"></i>un environnement de développement JavaScript avec l'utilisation de NodeJS et de Grunt pour la construction de la partie cliente du projet.</li></ul>Pour démarrer dans de bonnes conditions une base de code technique Java/JavaScript a été développée.",
+              "termesTechniques": [
+                4,
+                77,
+                82,
+                169,
+                172,
+                174
+              ]
+            }, {
+              "titre": "Développement de méthodes d'authentifications",
+              "description": "L'application fonctionne de façon différente en fonction du type de client qui s'y connecte. Le mode Stateless est utilisé lorsque l'application est utilisée à l'intérieur même de l'entreprise tout ceci grâce à l'utilisation d'une API Rest alors que pour une utilisation externe c'est un fonctionnement par Session qui sera privilégié. Concernant la sécurité, plusieurs moyens d'authentifications ont été développés avec des méthodes de chiffrement avancées pour répondre aux contraintes d'utilisation de l'application à l'intérieur de l'entreprise.",
+              "termesTechniques": [
+                123,
+                165,
+                166,
+                171,
+                172
+              ]
+            }, {
+              "titre": "Développement de l'application",
+              "description": "Les grandes fonctionnalités de l'application sont :<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la gestion des perturbations du réseau de transport,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la gestion du profil utilisateur avec notamment la gestion de perte de mot de passe,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la gestion de l'affichage et de l'impression du planning pour un conducteur de bus en particulier,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la possibilité de pouvoir exporter un planning au format iCal pour pouvoir l'importer par exemple dans Google Calendar,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la possibilité de pouvoir importer un fichier de non-grévistes pour recalculer en temps réel le planning des conducteurs.</li></ul>Toutes ces fonctionnalités ont été développées en accompagnant l'équipe dans la prise en main des technologies qui lui étaient jusque là inconnues. Ceci avec des phases :<ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>de relectures de code,</li><li><i class=\"fa-li fa fa-angle-right\"></i>de binômages,</li><li><i class=\"fa-li fa fa-angle-right\"></i>de formations à des concepts tels que le mapping Relationnel/Objet, les Promesses JavaScript, le fonctionnement du double data-binding d'AngularJS ou encore la sérialisation/désérialisation des flux JSON.</li></ul>",
+              "termesTechniques": [
+                4,
+                28,
+                43,
+                77,
+                85,
+                86,
+                87,
+                89,
+                92,
+                162,
+                163,
+                165,
+                166,
+                169,
+                171,
+                172,
+                175,
+                176,
+                177
+              ]
+            }, {
+              "titre": "Configuration de la plateforme de production",
+              "description": "Pour facilité le travail de l'équipe en charge de l'exploitation de l'application et futures applications, des outils de génération d'images Docker par environnement (Intégration, Recette et Production) ont été développés. L'application est en fait constituée de plusieurs conteneurs Docker communiquant entre eux. On trouvera notamment les conteneurs suivants : <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>un reverse proxy NGINX,</li><li><i class=\"fa-li fa fa-angle-right\"></i>un serveur de ressources statiques basé lui aussi sur NGINX,</li><li><i class=\"fa-li fa fa-angle-right\"></i>un serveur TOMCAT,</li><li><i class=\"fa-li fa fa-angle-right\"></i>un serveur SFTP pour le dépôt des fichiers de perturbations.</li></ul>",
+              "termesTechniques": [
+                78,
+                97,
+                167,
+                168,
+                170,
+                173
+              ]
+            }, {
+              "titre": "Production de documents",
+              "description": "Pour qu'à mon départ, l'équipe accède à une certaine autonomie, plusieurs documents ont été produits avec notamment : <ul class=\"fa-ul\"><li><i class=\"fa-li fa fa-angle-right\"></i>la procédure d'installation de l'environnement de développement,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la procédure d'installation de Docker sur CentOS 7,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la procédure d'installation des images de base,</li><li><i class=\"fa-li fa fa-angle-right\"></i>la procédure d'installation de l'application de gestion de prise de service,</li><li><i class=\"fa-li fa fa-angle-right\"></i>les différentes actions à réaliser par l'équipe d'exploitation pour la gestion du déploiement de l'application,</li><li><i class=\"fa-li fa fa-angle-right\"></i>une documentation sur l'infrastructure logicielle mise en place.</li></ul>",
+              "termesTechniques": [
+              ]
+            }
+
+          ]
+        }
+      ]
+    }, {
       "debut": "2014-11-01",
       "fin": "2014-12-01",
       "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
@@ -544,7 +625,7 @@
           "id": 10,
           "nom": "Planning",
           "client": "iMDEO pour le Groupe Hervé  (Tours) ",
-          "descriptionCourte": "Développement d'outils de visualisation temporaux sur l'organisation du personnel et des projets du Groupe Hervé. Le choix du Framework Flex s'est vite imposé. Fonctionnalités clés : planning de Gantt, planning des chantiers et planning des resources en personnels.",
+          "descriptionCourte": "Développement d'outils de visualisation temporaux sur l'organisation du personnel et des projets du Groupe Hervé. Le choix du Framework Flex s'est vite imposé. Fonctionnalités clés : planning de Gantt, planning des chantiers et planning des ressources en personnels.",
           "description": "L'objectif du projet est de fournir des outils de visualisation temporaux sur l'organisation du personnel et des projets du Groupe Hervé. Ces outils devront pouvoir s'exécuter au sein même d'un navigateur WEB. Ils font fortement appel à des primitives graphiques, le choix du Framework Flex s'est donc vite imposé.",
           "termesTechniques": [
             16,
@@ -1212,7 +1293,7 @@
     }, {
       "id": 8,
       "libelle": {
-        "fr": "Base de Donnée",
+        "fr": "Base de Données",
         "en": "Database"
       },
       "imprimer": true
@@ -1460,11 +1541,11 @@
     }, {
       "id": 36,
       "categories": [3, 10],
-      "libelle": "Spring Core"
+      "libelle": "Spring 3 Core"
     }, {
       "id": 37,
       "categories": [3, 10],
-      "libelle": "Spring MVC"
+      "libelle": "Spring 3 MVC"
     }, {
       "id": 38,
       "categories": [10],
@@ -1623,7 +1704,7 @@
     }, {
       "id": 76,
       "categories": [10],
-      "libelle": "AngularJS"
+      "libelle": "AngularJS 1.2"
     }, {
       "id": 77,
       "categories": [9],
@@ -1986,6 +2067,62 @@
       "id": 163,
       "categories": [15],
       "libelle": "Jasmine"
+    }, {
+      "id": 164,
+      "categories": [10],
+      "libelle": "AngularJS 1.2"
+    }, {
+      "id": 165,
+      "categories": [3, 10],
+      "libelle": "Spring 4 Core"
+    }, {
+      "id": 166,
+      "categories": [3, 10],
+      "libelle": "Spring 4 MVC"
+    }, {
+      "id": 167,
+      "categories": [19],
+      "libelle": "Docker"
+    }, {
+      "id": 168,
+      "categories": [5],
+      "libelle": "CentOS 7"
+    }, {
+      "id": 169,
+      "categories": [10],
+      "libelle": "AngularJS 1.3"
+    }, {
+      "id": 170,
+      "categories": [1],
+      "libelle": "Scripting Shell"
+    }, {
+      "id": 171,
+      "categories": [8],
+      "libelle": "Postgresql"
+    }, {
+      "id": 172,
+      "categories": [1],
+      "libelle": "Java 8"
+    }, {
+      "id": 173,
+      "categories": [18],
+      "libelle": "SFTP"
+    }, {
+      "id": 174,
+      "categories": [16],
+      "libelle": "Nexus"
+    }, {
+      "id": 175,
+      "categories": [20],
+      "libelle": "iCal"
+    }, {
+      "id": 176,
+      "categories": [10],
+      "libelle": "Bootstrap 3"
+    }, {
+      "id": 177,
+      "categories": [21],
+      "libelle": "TRANSMODEL"
     }
   ]
 

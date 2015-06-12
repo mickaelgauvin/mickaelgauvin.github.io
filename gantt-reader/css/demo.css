@@ -1,0 +1,37 @@
+.container {
+    min-width: 300px;
+    min-height: 225px;
+    max-width: 1600px;
+    max-height: 900px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0px auto;
+
+}
+
+.gantt-reader {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.json-model {
+    float: right;
+    box-sizing: border-box;
+    margin: 5px;
+    height: 100%;
+    min-width: 250px;
+    max-width: 500px;
+    width: 50%;
+}
+
+.json-model-code {
+    overflow: auto;
+}

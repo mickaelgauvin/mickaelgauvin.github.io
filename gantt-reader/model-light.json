@@ -1,0 +1,307 @@
+{
+  "name": "model1",
+  "temporalData": [
+    {
+      "type": "Task",
+      "uid": 1,
+      "name": "Sample Task n°1",
+      "start": "2015-05-04",
+      "finish": "2015-05-10",
+      "percentComplete": 50
+    }, {
+      "type": "Task",
+      "uid": 2,
+      "name": "Sample Task n°2",
+      "start": "2015-05-11",
+      "finish": "2015-05-17",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 1
+        }
+      ]
+    }, {
+      "type": "Task",
+      "uid": 3,
+      "name": "Sample Task n°3",
+      "start": "2015-05-18",
+      "finish": "2015-06-30",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 2
+        }
+      ]
+    }, {
+      "type": "Summary",
+      "uid": 1000,
+      "name": "Sample Summary n°1",
+      "temporalData": [
+        {
+          "type": "Task",
+          "uid": 100,
+          "name": "Sample Task n°4 with long name — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "start": "2015-06-30",
+          "finish": "2015-07-07",
+          "percentComplete": 75
+        }, {
+          "type": "Task",
+          "uid": 101,
+          "name": "Sample Task n°5",
+          "start": "2015-07-08",
+          "finish": "2015-07-24",
+          "predecessorLinks": [
+            {
+              "predecessorUID": 100
+            }
+          ]
+        }, {
+          "type": "Task",
+          "uid": 102,
+          "name": "Sample Task n°6",
+          "start": "2015-06-30",
+          "finish": "2015-07-15"
+        }, {
+          "type": "Summary",
+          "uid": 1001,
+          "name": "Sample Summary n°2",
+          "temporalData": [
+            {
+              "type": "Task",
+              "name": "Short name",
+              "start": "2015-07-16",
+              "finish": "2015-07-18",
+              "percentComplete": 50
+            }, {
+              "type": "Task",
+              "uid": 49,
+              "name": "Sample Task n°7",
+              "start": "2015-07-18",
+              "finish": "2015-07-31"
+            }, {
+              "type": "Task",
+              "uid": 50,
+              "name": "Sample Task n°8",
+              "start": "2015-08-01",
+              "finish": "2015-08-15"
+            }, {
+              "type": "Task",
+              "uid": 51,
+              "name": "Sample Task n°9",
+              "start": "2015-08-25",
+              "finish": "2015-08-30",
+              "predecessorLinks": [
+                {
+                  "predecessorUID": 49
+                }, {
+                  "predecessorUID": 50
+                }
+              ]
+            }
+          ],
+          "predecessorLinks": [
+            {
+              "predecessorUID": 102
+            }
+          ]
+        }
+      ],
+      "predecessorLinks": [
+        {
+          "predecessorUID": 3
+        }
+      ]
+    },{
+      "type": "Task",
+      "uid": 10000,
+      "name": "Sample Task n°10",
+      "start": "2015-08-21",
+      "finish": "2015-08-27"
+    }, {
+      "type": "Milestone",
+      "uid": 10001,
+      "name": "Milestone n°1",
+      "start": "2015-08-28",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 10000
+        }
+      ]
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°11",
+      "start": "2015-06-01",
+      "finish": "2015-06-11",
+      "percentComplete": 100
+    }, {
+      "type": "Task",
+      "uid": 10002,
+      "name": "Sample Task n°12",
+      "start": "2015-09-15",
+      "finish": "2015-09-30",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 10001
+        }
+      ]
+    }, {
+      "type": "Task",
+      "uid": 10101,
+      "name": "Sample Task n°13",
+      "start": "2015-06-16",
+      "finish": "2015-06-30",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 10100
+        }
+      ]
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°14",
+      "start": "2015-05-07",
+      "finish": "2015-05-14"
+    }, {
+      "type": "Task",
+      "uid": 10100,
+      "name": "Sample Task n°15",
+      "start": "2015-06-01",
+      "finish": "2015-06-15"
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°16",
+      "start": "2015-06-01",
+      "finish": "2015-06-16"
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°17",
+      "start": "2015-06-01",
+      "finish": "2015-06-17"
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°18",
+      "start": "2015-06-01",
+      "finish": "2015-06-18"
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°19",
+      "start": "2015-06-01",
+      "finish": "2015-06-19"
+    }, {
+      "type": "Task",
+      "uid": 998,
+      "name": "Sample Task n°20",
+      "start": "2015-06-01",
+      "finish": "2015-06-20"
+    }, {
+      "type": "Task",
+      "uid": 999,
+      "name": "Sample Task n°21",
+      "start": "2015-06-21",
+      "finish": "2015-07-21",
+      "predecessorLinks": [
+        {
+          "predecessorUID": 998
+        }
+      ]
+    },
+    {
+      "type": "Summary",
+      "name": "Sample Summary n°3",
+      "temporalData": [
+        {
+          "type": "Task",
+          "name": "Sample Task n°22",
+          "start": "2015-06-01",
+          "finish": "2015-06-22"
+        },
+        {
+          "type": "Task",
+          "name": "Sample Task n°23",
+          "start": "2015-06-23",
+          "finish": "2015-06-30"
+        },
+        {
+          "type": "Task",
+          "name": "Sample Task n°24",
+          "start": "2015-07-01",
+          "finish": "2015-07-07"
+        },
+        {
+          "type": "Task",
+          "name": "Sample Task n°25",
+          "start": "2015-06-01",
+          "finish": "2015-06-25"
+        },
+        {
+          "type": "Task",
+          "name": "Sample Task n°26",
+          "start": "2015-06-26",
+          "finish": "2015-06-30"
+        },
+        {
+          "type": "Task",
+          "name": "Sample Task n°27",
+          "start": "2015-07-01",
+          "finish": "2015-07-27"
+        }
+      ]
+    }, {
+      "type": "Task",
+      "name": "Sample Task n°76",
+      "start": "2015-06-01",
+      "finish": "2015-08-16"
+    }, {
+      "type": "Summary",
+      "name": "Sample Summary n°4",
+      "temporalData": [
+        {
+          "type": "Task",
+          "name": "Sample Task n°77",
+          "start": "2015-09-10",
+          "finish": "2015-10-11",
+          "percentComplete": 100
+        }, {
+          "type": "Task",
+          "name": "Sample Task n°78",
+          "start": "2015-09-12",
+          "finish": "2016-01-30"
+        }, {
+          "type": "Task",
+          "name": "Sample Task n°79",
+          "start": "2015-12-01",
+          "finish": "2016-02-13"
+        }, {
+          "type": "Summary",
+          "name": "Sample Summary n°5",
+          "temporalData": [
+            {
+              "type": "Task",
+              "name": "Sample Task n°80",
+              "start": "2016-01-14",
+              "finish": "2016-01-25",
+              "percentComplete": 50
+            }, {
+              "type": "Task",
+              "name": "Sample Task n°81",
+              "start": "2016-03-12",
+              "finish": "2016-03-30"
+            }, {
+              "type": "Task",
+              "name": "Sample Task n°82",
+              "start": "2016-04-01",
+              "finish": "2016-04-13"
+            }, {
+              "type": "Task",
+              "name": "Sample Task n°83",
+              "start": "2016-05-15",
+              "finish": "2016-05-20"
+            }
+          ]
+        }, {
+          "type": "Task",
+          "name": "Sample Task n°84 — Final Task",
+          "start": "2016-05-04",
+          "finish": "2016-05-30"
+        }
+      ]
+    }
+  ]
+}

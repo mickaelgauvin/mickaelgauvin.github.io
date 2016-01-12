@@ -102,16 +102,311 @@
       }
     }
   ],
-  "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.<br/><br/>",
-  "domainesExpertises": "Au fil des missions que j'ai réalisées, je me suis perfectionné sur les technologies de l'écosystème <strong>J2EE&nbsp;/&nbsp;Spring&nbsp;/&nbsp;Hibernate</strong> et depuis l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis formé davantage au niveau des technologies <strong>JavaScript</strong>. Je suis adepte du langage <strong>CoffeeScript</strong> que j'ai eu l'occasion d'utiliser à maintes reprises sur des projets, pour certains, construits avec <strong>AngularJS</strong>. J'ai participé à des projets liés à des domaines purement techniques mais aussi sur d'autres plus fonctionnels dans le domaine de la <strong>défense</strong>, de la gestion de <strong>planning</strong> ou encore celui du <strong>transport</strong>.<br/><br/><br/>",
+  "resume": "En tant qu'indépendant, je réalise chez mes clients des projets ambitieux tant sur le plan technique que fonctionnel. Je suis passionné par les nouvelles technologies et suis de près les nouvelles du monde de l'Open Source. Cette veille technologique me permet de faire plus aisément des propositions en adéquation avec les demandes de mes clients.<br/>",
+  "domainesExpertises": "Au fil des missions que j'ai réalisées, je me suis forgé de solides compétences sur les frameworks tels que <strong>J2EE&nbsp;/&nbsp;Spring&nbsp;/&nbsp;Hibernate&nbsp;/&nbsp;Eclipse&nbsp;RCP</strong> et depuis l'abandon par Adobe de la technologie <strong>Flex</strong>, je me suis formé davantage au niveau des technologies <strong>JavaScript</strong>. Je suis adepte du langage <strong>CoffeeScript</strong> que j'ai eu l'occasion d'utiliser à maintes reprises sur des projets, pour certains, construits avec <strong>AngularJS</strong>. J'ai participé à des projets liés à des domaines purement techniques mais aussi sur d'autres plus fonctionnels dans le domaine de la <strong>défense</strong>, de la gestion de <strong>planning</strong> ou encore celui du <strong>transport</strong>.<br/>",
   "experiencesProfessionnelles": [
     {
+      "debut": "2015-11-01",
+      "fin": "2016-01-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 33,
+          "nom": "Authentification Centralisée CAS",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Implémentation de l'authentification CAS pour les applications Spring du Groupe Hervé.",
+          "termesTechniques": [
+            1,
+            4,
+            10,
+            11,
+            13,
+            36,
+            61,
+            64,
+            73,
+            78,
+            107,
+            123,
+            178
+          ]
+        }, {
+          "id": 32,
+          "nom": "OSCAR",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Nouveaux exports Excel et gestion de l'équilibrage des phases.",
+          "termesTechniques": [
+            1,
+            13,
+            25,
+            26,
+            32,
+            33,
+            40,
+            49,
+            50,
+            43,
+            61,
+            63,
+            69,
+            73,
+            78,
+            100,
+            107,
+            119,
+            135,
+            138,
+            140,
+            141,
+            145
+          ],
+          "realisations": [
+            {
+              "titre": "Développement de nouveaux exports Excel",
+              "description": "Refonte complète des exports Excel avec la possibilité de choisir des options d'exportation telles que la mise en page ou des options spécifiques au cas par cas.",
+              "termesTechniques": [
+                144
+              ]
+            }, {
+              "titre": "Équilibrage automatique de l'affectation des phases",
+              "description": "Sur une alimentation triphasée des éléments monophasés peuvent s'y connecter. Dans le but d'optimiser l'électricité à fournir à l'alimentation, un nouvel outil a été développé permettant d'équilibrer, de façon automatique ou manuelle, l'affectation des phases des éléments monophasés. Si l'équilibrage n'est pas satisfaisant, une alerte est générée dans l'export des bilans de puissance.",
+              "termesTechniques": [
+              ]
+            }
+          ]
+        }, {
+          "id": 31,
+          "nom": "Planning",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Refonte de la méthode de construction du projet pour fonctionner avec le nouveau serveur Nexus.",
+          "termesTechniques": [
+            41,
+            82,
+            174
+          ]
+        }, {
+          "id": 30,
+          "nom": "Gestion des Achats",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "descriptionCourte": "Importation de besoin sous forme de fichiers CSV ou en saisie manuelle rapide.",
+          "description": "Importation de besoin sous forme de fichiers CSV ou en saisie manuelle rapide. Des aides à la saisie sont proposées avec notamment la vérification en temps réel de la cohérencee des données fournies en entrée.",
+          "termesTechniques": [
+            1,
+            11,
+            12,
+            13,
+            32,
+            33,
+            40,
+            43,
+            61,
+            63,
+            69,
+            73,
+            78,
+            100,
+            107,
+            144
+          ]
+        }
+      ]
+    }, {
+      "debut": "2015-09-01",
+      "fin": "2015-10-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 29,
+          "nom": "Échanges de Services Agents",
+          "client": "Keolis Rennes",
+          "description": "Ajout d'un module permettant l'échange de services entre conducteurs.",
+          "termesTechniques": [
+            13,
+            62
+          ],
+          "realisations": [
+            {
+              "titre": "Écriture des spécifications fonctionnelles",
+              "description": "Ce module a pour but d'informatiser le cahier physique où étaient décrits les échanges de services que souhaitaient faire les conducteurs à plus ou moins long terme. Un document de spécification a été écrit dans le but de traduire les règles métiers issues de la gestion de ce cahier physique.",
+              "termesTechniques": [
+                69
+              ]
+            }, {
+              "titre": "Développement du module",
+              "description": "<ul><li>CRUD des échanges,</li><li>Notifications aux personnes concernées,</li><li>Export des échanges sur les prochains jours,</li><li>Approbation des échanges par l'admistrateur car ceux-ci doivent respecter la réglementation sociale.</li></ul>",
+              "termesTechniques": [
+                4,
+                23,
+                28,
+                43,
+                77,
+                78,
+                82,
+                85,
+                86,
+                87,
+                89,
+                92,
+                97,
+                162,
+                163,
+                165,
+                166,
+                167,
+                168,
+                170,
+                171,
+                172,
+                173,
+                175,
+                174,
+                176,
+                177,
+                179
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "debut": "2015-03-01",
+      "fin": "2015-08-01",
+      "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
+      "projets": [
+        {
+          "id": 28,
+          "nom": "Authentification Centralisée CAS",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Implémentation de l'authentification au travers d'un Serveur CAS et de la fonctionnalité « Se connecter en tant que ».",
+          "termesTechniques": [
+            1,
+            4,
+            10,
+            11,
+            13,
+            61,
+            64,
+            73,
+            78,
+            107
+          ],
+          "realisations": [
+            {
+              "titre": "Configuration du Serveur CAS Jasig",
+              "description": "<ul><li>Configuration du Serveur CAS Jasig en mode REST.</li><li>Génération des certificats pour les connexions SSL.</li><li>Import des certificats dans les différentes JVM concernées.</li></ul>",
+              "termesTechniques": [
+                28,
+                123,
+                178
+              ]
+            },{
+              "titre": "CAS sur APPL",
+              "description": "Implémentation de l'authentication CAS sur le serveur APPL.",
+              "termesTechniques": [
+                39
+              ]
+            }, {
+              "titre": "« Se connecter en tant que »",
+              "description": "Cette fonctionnalité permet, si l'utilisateur dispose des droits nécessaires, de choisir de se connecter en tant qu'une autre personne et ainsi de bénéficier de fonctionnalités spécifiques dans l'application.",
+              "termesTechniques": [
+              ]
+            }
+          ]
+        }, {
+          "id": 27,
+          "nom": "Monitoring du système d'information",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Utilisation de CasperJS pour la création de scripts de monitoring d'applications.",
+          "termesTechniques": [
+            1,
+            4,
+            13,
+            61,
+            82,
+            87,
+            102,
+            180
+          ]
+        }, {
+          "id": 26,
+          "nom": "Outil de chiffrage",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Gestion des bordereaux de prix issus d'un référentiel. Gestion des particularités des arrondis Suisses. Augmentation des performances notable.",
+          "termesTechniques": [
+            1,
+            11,
+            13,
+            21,
+            32,
+            33,
+            43,
+            113,
+            118,
+            119,
+            136
+          ],
+          "realisations": [
+            {
+              "titre": "Bordereaux de prix",
+              "description": "Gestion des taux de main d'œuvre, des coefficients et des prix contractuels.",
+              "termesTechniques": [
+              ]
+            }, {
+              "titre": "Arrondis Suisses",
+              "description": "Les suisses ne possèdent pas de pièce de 1 et de 2 centimes. Il a fallu ajouter une nouvelle stratégie d'arrondi à 5 centimes près et faire une revue complète de l'application et de ses satellites pour en contrôller le bon fonctionnement.",
+              "termesTechniques": [
+              ]
+            }, {
+              "titre": "Augmentation des performances",
+              "description": "Au fur et à mesure des évolutions l'application souffrait de problèmes de performance. Ainsi des caches mémoire ont été ajoutés, les différentes données sont maintenant remontées en temps utile (mode Lazy) et le système de visiteur fonctionnant par réflexion a été revu.",
+              "termesTechniques": [
+              ]
+            }
+          ]
+        }, {
+          "id": 25,
+          "nom": "Planning",
+          "client": "iMDEO pour le Groupe Hervé (Tours)",
+          "description": "Implémentation de nouveaux filtres de recherche.",
+          "termesTechniques": [
+            1,
+            4,
+            6,
+            16,
+            20,
+            21,
+            27,
+            28,
+            34,
+            36,
+            39,
+            41,
+            43,
+            56,
+            61,
+            64,
+            73,
+            78,
+            82,
+            107,
+            124,
+            128,
+            129,
+            127,
+            148,
+            149,
+            151,
+            152
+          ]
+        }
+      ]
+    }, {
       "debut": "2014-12-01",
       "fin": "2015-02-01",
       "entreprise": "Freelance Ingénieur Conseil en Systèmes et Logiciels Informatiques",
       "projets": [
         {
-          "id": 22,
+          "id": 23,
           "nom": "Application de prise de service",
           "client": "Keolis Rennes",
           "description": "Création d'une Single Page Application permettant à des conducteurs de bus de consulter leur planning. Un accent particulier a été porté sur la sécurisation de l'accès à la plateforme et à l'accessibilité de l'application. Le développement s'est effectué en accompagnant l'équipe de production tout au long de sa réalisation, le but étant de lui faire apprécier la création de ce type d'application avec les frameworks tels que Hibernate, Spring 4 et AngularJS.",
@@ -213,9 +508,11 @@
       "projets": [
         {
           "id": 21,
-          "nom": "Composant JavaScript : Timeline",
+          "nom": "Composant JavaScript : Diagramme de Gantt",
           "client": "En vue d'une commercialisation",
-          "description": "Conception à titre personnel d'un composant JavaScript permettant la manipulation d'une ligne des temps. Il s'agit en fait d'un portage du même composant développé à la base pour une application de planning faite avec la technologie Flex.",          "termesTechniques": [
+          "description": "Conception à titre personnel d'un composant JavaScript permettant la manipulation d'un diagramme de Gantt. Il s'agit en fait d'un portage du même composant développé à la base pour une application de planning faite avec la technologie Flex.",
+          "descriptionCourte": "Conception à titre personnel d'un composant JavaScript permettant la manipulation d'un diagramme de Gantt.",
+          "termesTechniques": [
             14,
             4,
             5,
@@ -1256,7 +1553,6 @@
       "imprimer": false
     }, {
       "id": 3,
-      "categoriesParentes": [],
       "libelle": {
         "fr": "Bibliothèques",
         "en": "Libraries"
@@ -1393,6 +1689,13 @@
       "libelle": {
         "fr": "Ressources Documentaires",
         "en": "Resources"
+      },
+      "imprimer": true
+    }, {
+      "id": 23,
+      "libelle": {
+        "fr": "Sécurité",
+        "en": "Security"
       },
       "imprimer": true
     }
@@ -1852,10 +2155,7 @@
     }, {
       "id": 114,
       "categories": [13],
-      "libelle": {
-        "fr": "Test Unitaire",
-        "en": "Unit Test"
-      }
+      "libelle": "Test Unitaire"
     }, {
       "id": 115,
       "categories": [13],
@@ -2123,6 +2423,18 @@
       "id": 177,
       "categories": [21],
       "libelle": "TRANSMODEL"
+    }, {
+      "id": 178,
+      "categories": [23],
+      "libelle": "CAS Jasig"
+    }, {
+      "id": 179,
+      "categories": [10],
+      "libelle": "AngularJS 1.4"
+    }, {
+      "id": 180,
+      "categories": [10],
+      "libelle": "CasperJS"
     }
   ]
 
